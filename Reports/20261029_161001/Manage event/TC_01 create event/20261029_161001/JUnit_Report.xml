@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_01 create event" time="20.683" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="TC_01 create event" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="20.683" timestamp="2026-10-29T10:40:12.480Z" hostname="admin - LAPTOP-46U4UC34" id="Test Suites/Manage event/TC_01 create event" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_161001\\Manage event\\TC_01 create event\\20261029_161001"/>
+         <property name="logFiles" value="C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_161001\\Manage event\\TC_01 create event\\20261029_161001\\console0.log, C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_161001\\Manage event\\TC_01 create event\\20261029_161001\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - LAPTOP-46U4UC34"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.7.0"/>
+         <property name="userFullName" value="aarti oza"/>
+         <property name="sessionId" value="6c1e0a5123a49a320042c967ccfdf6b8"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="executionPlanRevision" value="{&quot;testCaseId&quot;:&quot;Test Cases/Manage event/TC_01 create event&quot;,&quot;plannedEntryId&quot;:&quot;471f3eca-2cc6-46ec-a60e-34a07907b239&quot;,&quot;iterationIds&quot;:[&quot;471f3eca-2cc6-46ec-a60e-34a07907b239&quot;],&quot;boundVariableNames&quot;:[&quot;email_address&quot;,&quot;password&quot;,&quot;event_name&quot;,&quot;event_type&quot;,&quot;start_date&quot;,&quot;end_date&quot;,&quot;description&quot;,&quot;event_admin_name&quot;,&quot;admin_email_address&quot;,&quot;phone_number&quot;,&quot;question1&quot;],&quot;iterationLabels&quot;:[&quot;&quot;]}"/>
+         <property name="platform" value="Windows 11"/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;aartioza2026+fgate@gmail.com&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;email_address&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Admin@123&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;password&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Test 4.0&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;event_name&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Seminar&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;event_type&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;October 31st,2026&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;start_date&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;October  31st 2026&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;end_date&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Description&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;description&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;event admin 2&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;event_admin_name&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;aartioza2026+40@gmail.com&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;admin_email_address&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;123456789&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;phone_number&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;what is your name&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;question1&quot;,&#xa;    &quot;masked&quot;: false&#xa;  }&#xa;]"/>
+         <property name="browser" value="Chrome 156.0.8078.48"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="projectName" value="MSXPO"/>
+         <property name="seleniumVersion" value="4.46.0"/>
+      </properties>
+      <testcase name="Test Cases/Manage event/TC_01 create event" time="20.228" classname="Test Cases/Manage event/TC_01 create event" status="PASSED" tag="GenAI">
+         <properties>
+            <property name="data_binding"><![CDATA[{"end_date":"October  31st 2026","event_admin_nam...":"event admin 2","password":"Admin@123","email_address":"aartioza2026+fgate@gmail.com","event_type":"Seminar","admin_email_add...":"aartioza2026+40@gmail.com","event_name":"Test 4.0","description":"Description","phone_number":"123456789","question1":"what is your name","start_date":"October 31st,2026"}]]></property>
+         </properties>
+         <system-out><![CDATA[29-10-2026T16:10:12 - [TEST_CASE][PASSED] - Test Cases/Manage event/TC_01 create event: Test Cases/Manage event/TC_01 create event
+
+29-10-2026T16:10:13 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+29-10-2026T16:10:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-10-2026T16:10:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-10-2026T16:10:18 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+29-10-2026T16:10:18 - [TEST_STEP][PASSED] - navigateToUrl("https://app.msxpo.sa/login"): Navigate to 'https://app.msxpo.sa/login' successfully
+
+29-10-2026T16:10:19 - [MESSAGE][PASSED] - Navigate to 'https://app.msxpo.sa/login' successfully
+
+29-10-2026T16:10:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-10-2026T16:10:20 - [MESSAGE][PASSED] - Current window maximized
+
+29-10-2026T16:10:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address): Text 'aartioza2026+fgate@gmail.com' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your email'
+
+29-10-2026T16:10:21 - [MESSAGE][PASSED] - Text 'aartioza2026+fgate@gmail.com' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your email'
+
+29-10-2026T16:10:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password): Text 'Admin@123' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your password'
+
+29-10-2026T16:10:22 - [MESSAGE][PASSED] - Text 'Admin@123' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your password'
+
+29-10-2026T16:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In")): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Sign In' is clicked on
+
+29-10-2026T16:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Sign In' is clicked on
+
+29-10-2026T16:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/span_Events")): Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Events' is clicked on
+
+29-10-2026T16:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Events' is clicked on
+
+29-10-2026T16:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/span_Create Event")): Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Create Event' is clicked on
+
+29-10-2026T16:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Create Event' is clicked on
+
+29-10-2026T16:10:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026"), event_name): Text 'Test 4.0' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026'
+
+29-10-2026T16:10:26 - [MESSAGE][PASSED] - Text 'Test 4.0' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026'
+
+29-10-2026T16:10:26 - [TEST_STEP][PASSED] - eventTypeTrigger = findTestObject("Manage event/event_type_trigger"): null
+
+29-10-2026T16:10:26 - [TEST_STEP][PASSED] - if (!(verifyElementPresent(eventTypeTrigger, 5, OPTIONAL))): Object 'Object Repository/Manage event/event_type_trigger' is present
+
+29-10-2026T16:10:26 - [MESSAGE][PASSED] - Object 'Object Repository/Manage event/event_type_trigger' is present
+
+29-10-2026T16:10:26 - [TEST_STEP][PASSED] - click(eventTypeTrigger): Object: 'Object Repository/Manage event/event_type_trigger' is clicked on
+
+29-10-2026T16:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage event/event_type_trigger' is clicked on
+
+29-10-2026T16:10:26 - [TEST_STEP][PASSED] - eventTypeOption = findTestObject("Manage event/event_type_option", ["event_type":event_type]): null
+
+29-10-2026T16:10:26 - [TEST_STEP][PASSED] - waitForElementVisible(eventTypeOption, 5): Object 'Object Repository/Manage event/event_type_option' is visible
+
+29-10-2026T16:10:27 - [MESSAGE][PASSED] - Object 'Object Repository/Manage event/event_type_option' is visible
+
+29-10-2026T16:10:27 - [TEST_STEP][PASSED] - click(eventTypeOption): Object: 'Object Repository/Manage event/event_type_option' is clicked on
+
+29-10-2026T16:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage event/event_type_option' is clicked on
+
+29-10-2026T16:10:27 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+29-10-2026T16:10:28 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+29-10-2026T16:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/span_Select start date", [end_date:""])): Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Select start date' is clicked on
+
+29-10-2026T16:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Select start date' is clicked on
+
+29-10-2026T16:10:28 - [TEST_STEP][PASSED] - startDayCell = findTestObject("Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026"): null
+
+29-10-2026T16:10:28 - [TEST_STEP][PASSED] - waitForElementPresent(startDayCell, 10): Object 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is present
+
+29-10-2026T16:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is present
+
+29-10-2026T16:10:28 - [TEST_STEP][PASSED] - click(startDayCell): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is clicked on
+
+29-10-2026T16:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is clicked on
+
+29-10-2026T16:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/span_Select end date")): Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Select end date' is clicked on
+
+29-10-2026T16:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Select end date' is clicked on
+
+29-10-2026T16:10:28 - [TEST_STEP][PASSED] - endDayCell = findTestObject("Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026"): null
+
+29-10-2026T16:10:28 - [TEST_STEP][PASSED] - waitForElementPresent(endDayCell, 10): Object 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is present
+
+29-10-2026T16:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is present
+
+29-10-2026T16:10:28 - [TEST_STEP][PASSED] - click(endDayCell): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is clicked on
+
+29-10-2026T16:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is clicked on
+
+29-10-2026T16:10:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/textarea_Brief event overview"), description): Text 'Description' is set on object 'Object Repository/Page_MSxpo - Admin Panel/textarea_Brief event overview'
+
+29-10-2026T16:10:29 - [MESSAGE][PASSED] - Text 'Description' is set on object 'Object Repository/Page_MSxpo - Admin Panel/textarea_Brief event overview'
+
+29-10-2026T16:10:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/button_Continue")): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Continue' is clicked on
+
+29-10-2026T16:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Continue' is clicked on
+
+29-10-2026T16:10:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-3 w-3")): Object: 'Object Repository/Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-3 w-3' is clicked on
+
+29-10-2026T16:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-3 w-3' is clicked on
+
+29-10-2026T16:10:29 - [TEST_STEP][PASSED] - adminFullName = findTestObject("Page_MSxpo - Admin Panel/input_Full name"): null
+
+29-10-2026T16:10:30 - [TEST_STEP][PASSED] - waitForElementPresent(adminFullName, 15): Object 'Object Repository/Page_MSxpo - Admin Panel/input_Full name' is present
+
+29-10-2026T16:10:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MSxpo - Admin Panel/input_Full name' is present
+
+29-10-2026T16:10:30 - [TEST_STEP][PASSED] - setText(adminFullName, event_admin_name): Text 'event admin 2' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Full name'
+
+29-10-2026T16:10:30 - [MESSAGE][PASSED] - Text 'event admin 2' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Full name'
+
+29-10-2026T16:10:30 - [TEST_STEP][PASSED] - addNewAdmin = findTestObject("Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-4 w-4 text-"): null
+
+29-10-2026T16:10:30 - [TEST_STEP][PASSED] - waitForElementPresent(addNewAdmin, 10): Object 'Object Repository/Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-4 w-4 text-' is present
+
+29-10-2026T16:10:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-4 w-4 text-' is present
+
+29-10-2026T16:10:30 - [TEST_STEP][PASSED] - click(addNewAdmin): Object: 'Object Repository/Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-4 w-4 text-' is clicked on
+
+29-10-2026T16:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-4 w-4 text-' is clicked on
+
+29-10-2026T16:10:30 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+29-10-2026T16:10:31 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+29-10-2026T16:10:31 - [TEST_STEP][PASSED] - adminPhone = findTestObject("Page_MSxpo - Admin Panel/input_500 000 000"): null
+
+29-10-2026T16:10:31 - [TEST_STEP][PASSED] - waitForElementPresent(adminPhone, 10): Object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000' is present
+
+29-10-2026T16:10:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000' is present
+
+29-10-2026T16:10:31 - [TEST_STEP][PASSED] - setText(adminPhone, phone_number): Text '123456789' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000'
+
+29-10-2026T16:10:31 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000'
+
+29-10-2026T16:10:31 - [TEST_STEP][PASSED] - adminEmail = findTestObject("Page_MSxpo - Admin Panel/input_Email address"): null
+
+29-10-2026T16:10:31 - [TEST_STEP][PASSED] - waitForElementPresent(adminEmail, 10): Object 'Object Repository/Page_MSxpo - Admin Panel/input_Email address' is present
+
+29-10-2026T16:10:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MSxpo - Admin Panel/input_Email address' is present
+
+29-10-2026T16:10:31 - [TEST_STEP][PASSED] - setText(adminEmail, admin_email_address): Text 'aartioza2026+40@gmail.com' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Email address'
+
+29-10-2026T16:10:32 - [MESSAGE][PASSED] - Text 'aartioza2026+40@gmail.com' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Email address'
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/button_Continue_1")): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Continue_1' is clicked on
+
+29-10-2026T16:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Continue_1' is clicked on
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - questionnaireContinue = findTestObject("Page_MSxpo - Admin Panel/button_Continue_2"): null
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - waitForElementPresent(questionnaireContinue, 15): Object 'Object Repository/Page_MSxpo - Admin Panel/button_Continue_2' is present
+
+29-10-2026T16:10:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MSxpo - Admin Panel/button_Continue_2' is present
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - click(questionnaireContinue): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Continue_2' is clicked on
+
+29-10-2026T16:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Continue_2' is clicked on
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - skipFloorPlanner = findTestObject("Page_MSxpo - Admin Panel/button_Skip Floor Planner"): null
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - waitForElementPresent(skipFloorPlanner, 15): Object 'Object Repository/Page_MSxpo - Admin Panel/button_Skip Floor Planner' is present
+
+29-10-2026T16:10:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MSxpo - Admin Panel/button_Skip Floor Planner' is present
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - click(skipFloorPlanner): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Skip Floor Planner' is clicked on
+
+29-10-2026T16:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Skip Floor Planner' is clicked on
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - saveAsDraft = findTestObject("Page_MSxpo - Admin Panel/button_Save as Draft"): null
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - waitForElementPresent(saveAsDraft, 15): Object 'Object Repository/Page_MSxpo - Admin Panel/button_Save as Draft' is present
+
+29-10-2026T16:10:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MSxpo - Admin Panel/button_Save as Draft' is present
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - click(saveAsDraft): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Save as Draft' is clicked on
+
+29-10-2026T16:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Save as Draft' is clicked on
+
+29-10-2026T16:10:32 - [TEST_STEP][PASSED] - savedEventTitle = findTestObject("Page_MSxpo - Admin Panel/h1_Test 2.0"): null
+
+29-10-2026T16:10:33 - [TEST_STEP][PASSED] - waitForElementPresent(savedEventTitle, 10, OPTIONAL): Object 'Object Repository/Page_MSxpo - Admin Panel/h1_Test 2.0' is present
+
+29-10-2026T16:10:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_MSxpo - Admin Panel/h1_Test 2.0' is present
+
+29-10-2026T16:10:33 - [TEST_STEP][PASSED] - click(savedEventTitle, OPTIONAL): Object: 'Object Repository/Page_MSxpo - Admin Panel/h1_Test 2.0' is clicked on
+
+29-10-2026T16:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/h1_Test 2.0' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-10-2026T16:10:12 - [TEST_SUITE][PASSED] - TC_01 create event: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

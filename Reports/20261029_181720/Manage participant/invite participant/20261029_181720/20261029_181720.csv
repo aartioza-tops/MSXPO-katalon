@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+invite participant,Chrome 156.0.8078.48,,,29-10-2026 18:17:27,29-10-2026 18:17:59,32.559s,ERROR
+,,,,,,,
+Test Cases/Manage participant/invite participant,Chrome 156.0.8078.48,,,29-10-2026 18:17:51,29-10-2026 18:17:58,7.114s,ERROR
+"DATA BINDING - {""participant_nam..."":""participant 002"",""password"":""Admin@123"",""contact_name"":""participant name"",""email_address"":""aartioza2026+virtual@gmail.com"",""contact_phone"":""123456789"",""industry"":""Real State"",""contact_email"":""aartioza2026.std1@gmail.com""}",,,,,,,
+openBrowser(null),Chrome 156.0.8078.48,,,29-10-2026 18:17:51,29-10-2026 18:17:53,2.071s,PASSED
+"navigateToUrl(""https://app.msxpo.sa/login"")",Chrome 156.0.8078.48,,,29-10-2026 18:17:53,29-10-2026 18:17:55,1.533s,PASSED
+"setText(findTestObject(""Page_MSxpo - Admin Panel/input_Enter your email""), email_address)",Chrome 156.0.8078.48,,,29-10-2026 18:17:55,29-10-2026 18:17:55,0.359s,PASSED
+"setText(findTestObject(""Page_MSxpo - Admin Panel/input_Enter your password""), password)",Chrome 156.0.8078.48,,,29-10-2026 18:17:55,29-10-2026 18:17:55,0.245s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/button_Sign In""))",Chrome 156.0.8078.48,,,29-10-2026 18:17:55,29-10-2026 18:17:55,0.137s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/span_Participants"", [industry:""""]))",Chrome 156.0.8078.48,,,29-10-2026 18:17:55,29-10-2026 18:17:57,1.135s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/span_Invite ParticipantsInvite Participant""))",Chrome 156.0.8078.48,,,29-10-2026 18:17:57,29-10-2026 18:17:57,0.755s,PASSED
+"setText(findTestObject(""Page_MSxpo - Admin Panel/input_Participant Name""), participant_name)",Chrome 156.0.8078.48,,,29-10-2026 18:17:57,29-10-2026 18:17:58,0.624s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/button_Select industry""))",Chrome 156.0.8078.48,,,29-10-2026 18:17:58,29-10-2026 18:17:58,0.176s,PASSED
+"waitForElementPresent(findTestObject(""Page_MSxpo - Admin Panel/button_Select industry""), 10)",Chrome 156.0.8078.48,,,29-10-2026 18:17:58,29-10-2026 18:17:58,0.026s,PASSED
+driver = DriverFactory.getWebDriver(),Chrome 156.0.8078.48,,,29-10-2026 18:17:58,29-10-2026 18:17:58,0.003s,ERROR

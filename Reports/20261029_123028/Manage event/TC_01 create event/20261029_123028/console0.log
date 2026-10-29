@@ -1,0 +1,451 @@
+2026-10-29 12:30:34.473 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\admin\.katalon\packages\KS-11.7.0\configuration\org.eclipse.osgi\166\0\.cp\resources\logback\logback-execution.xml
+2026-10-29 12:30:34.475 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\admin\Desktop\growtech\Masar 1\MSXPO\Include\config\log.properties
+2026-10-29 12:30:35.389 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Manage event/TC_01 create event
+2026-10-29 12:30:35.575 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = aarti oza
+2026-10-29 12:30:35.576 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = MSXPO
+2026-10-29 12:30:35.577 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = admin - LAPTOP-46U4UC34
+2026-10-29 12:30:35.578 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-10-29 12:30:35.580 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.5
+2026-10-29 12:30:35.581 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.7.0
+2026-10-29 12:30:36.309 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 12:30:36.310 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage event/TC_01 create event
+2026-10-29 12:30:36.412 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+fgate@gmail.com
+2026-10-29 12:30:36.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 12:30:36.414 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_name = Test 3.0
+2026-10-29 12:30:36.415 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_type = Seminar
+2026-10-29 12:30:36.416 INFO  c.k.katalon.core.main.TestCaseExecutor   - start_date = October 31st,2026
+2026-10-29 12:30:36.423 INFO  c.k.katalon.core.main.TestCaseExecutor   - end_date = October  31st 2026
+2026-10-29 12:30:36.424 INFO  c.k.katalon.core.main.TestCaseExecutor   - description = Description
+2026-10-29 12:30:36.425 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_admin_name = event admin 2
+2026-10-29 12:30:36.427 INFO  c.k.katalon.core.main.TestCaseExecutor   - admin_email_address = aartioza2026+30@gmail.com
+2026-10-29 12:30:36.427 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone_number = 123456789
+2026-10-29 12:30:36.429 INFO  c.k.katalon.core.main.TestCaseExecutor   - question1 = what is your name
+2026-10-29 12:30:37.221 DEBUG testcase.TC_01 create event              - 1: openBrowser(null)
+2026-10-29 12:30:37.745 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 12:30:37.859 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 12:30:43.206 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7fa889ce6639f2734bca33c5f8c1c7a0
+2026-10-29 12:30:43.209 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 12:30:43.210 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 12:30:43.211 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 12:30:43.227 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 12:30:43.327 DEBUG testcase.TC_01 create event              - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 12:30:44.582 DEBUG testcase.TC_01 create event              - 3: maximizeWindow()
+2026-10-29 12:30:44.837 DEBUG testcase.TC_01 create event              - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 12:30:45.742 DEBUG testcase.TC_01 create event              - 5: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 12:30:46.102 DEBUG testcase.TC_01 create event              - 6: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 12:30:46.368 DEBUG testcase.TC_01 create event              - 7: click(findTestObject("Page_MSxpo - Admin Panel/span_Events"))
+2026-10-29 12:30:47.518 DEBUG testcase.TC_01 create event              - 8: click(findTestObject("Page_MSxpo - Admin Panel/span_Create Event"))
+2026-10-29 12:30:48.602 DEBUG testcase.TC_01 create event              - 9: setText(findTestObject("Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026"), event_name)
+2026-10-29 12:30:49.067 DEBUG testcase.TC_01 create event              - 10: selectOptionByLabel(findTestObject("Manage event/event_type", [event_type:""]), "", false)
+2026-10-29 12:30:49.442 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to select option by label '' of object 'Object Repository/Manage event/event_type'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/Manage event/event_type' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at TC_01 create event.run(TC_01 create event:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_9.run(S1029_9.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:337)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at Script1793193757718.run(Script1793193757718.groovy:39)
+	... 13 more
+)
+2026-10-29 12:30:49.449 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage event/TC_01 create event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/Manage event/event_type' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at TC_01 create event.run(TC_01 create event:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_9.run(S1029_9.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:337)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+2026-10-29 12:30:49.454 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage event/TC_01 create event
+2026-10-29 12:30:49.463 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 12:30:49.463 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage event/TC_01 create event - Retry attempt 1
+2026-10-29 12:30:49.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+fgate@gmail.com
+2026-10-29 12:30:49.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 12:30:49.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_name = Test 3.0
+2026-10-29 12:30:49.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_type = Seminar
+2026-10-29 12:30:49.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - start_date = October 31st,2026
+2026-10-29 12:30:49.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - end_date = October  31st 2026
+2026-10-29 12:30:49.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - description = Description
+2026-10-29 12:30:49.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_admin_name = event admin 2
+2026-10-29 12:30:49.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - admin_email_address = aartioza2026+30@gmail.com
+2026-10-29 12:30:49.489 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone_number = 123456789
+2026-10-29 12:30:49.491 INFO  c.k.katalon.core.main.TestCaseExecutor   - question1 = what is your name
+2026-10-29 12:30:49.497 DEBUG testcase.TC_01 create event              - 1: openBrowser(null)
+2026-10-29 12:30:49.499 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-10-29 12:30:50.077 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 12:30:50.081 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 12:30:52.010 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8b51fdcccfa95ab978662f14293fab8c
+2026-10-29 12:30:52.010 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 12:30:52.010 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 12:30:52.010 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 12:30:52.010 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 12:30:52.062 DEBUG testcase.TC_01 create event              - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 12:30:53.131 DEBUG testcase.TC_01 create event              - 3: maximizeWindow()
+2026-10-29 12:30:53.301 DEBUG testcase.TC_01 create event              - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 12:30:53.762 DEBUG testcase.TC_01 create event              - 5: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 12:30:54.071 DEBUG testcase.TC_01 create event              - 6: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 12:30:54.236 DEBUG testcase.TC_01 create event              - 7: click(findTestObject("Page_MSxpo - Admin Panel/span_Events"))
+2026-10-29 12:30:55.212 DEBUG testcase.TC_01 create event              - 8: click(findTestObject("Page_MSxpo - Admin Panel/span_Create Event"))
+2026-10-29 12:30:56.300 DEBUG testcase.TC_01 create event              - 9: setText(findTestObject("Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026"), event_name)
+2026-10-29 12:30:56.760 DEBUG testcase.TC_01 create event              - 10: selectOptionByLabel(findTestObject("Manage event/event_type", [event_type:""]), "", false)
+2026-10-29 12:30:57.104 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to select option by label '' of object 'Object Repository/Manage event/event_type'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/Manage event/event_type' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at TC_01 create event.run(TC_01 create event:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_9.run(S1029_9.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:337)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at Script1793193757718.run(Script1793193757718.groovy:39)
+	... 14 more
+)
+2026-10-29 12:30:57.106 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage event/TC_01 create event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/Manage event/event_type' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at TC_01 create event.run(TC_01 create event:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_9.run(S1029_9.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:337)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-10-29 12:30:57.112 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage event/TC_01 create event
+2026-10-29 12:30:57.117 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 12:30:57.117 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage event/TC_01 create event - Retry attempt 2
+2026-10-29 12:30:57.139 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+fgate@gmail.com
+2026-10-29 12:30:57.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 12:30:57.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_name = Test 3.0
+2026-10-29 12:30:57.141 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_type = Seminar
+2026-10-29 12:30:57.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - start_date = October 31st,2026
+2026-10-29 12:30:57.148 INFO  c.k.katalon.core.main.TestCaseExecutor   - end_date = October  31st 2026
+2026-10-29 12:30:57.148 INFO  c.k.katalon.core.main.TestCaseExecutor   - description = Description
+2026-10-29 12:30:57.149 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_admin_name = event admin 2
+2026-10-29 12:30:57.149 INFO  c.k.katalon.core.main.TestCaseExecutor   - admin_email_address = aartioza2026+30@gmail.com
+2026-10-29 12:30:57.150 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone_number = 123456789
+2026-10-29 12:30:57.151 INFO  c.k.katalon.core.main.TestCaseExecutor   - question1 = what is your name
+2026-10-29 12:30:57.156 DEBUG testcase.TC_01 create event              - 1: openBrowser(null)
+2026-10-29 12:30:57.162 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-10-29 12:30:57.674 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 12:30:57.681 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 12:30:59.395 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f9dd54d9a418e01c3c111ad2e9ae4d5e
+2026-10-29 12:30:59.397 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 12:30:59.399 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 12:30:59.399 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 12:30:59.400 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 12:30:59.433 DEBUG testcase.TC_01 create event              - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 12:31:00.285 DEBUG testcase.TC_01 create event              - 3: maximizeWindow()
+2026-10-29 12:31:00.407 DEBUG testcase.TC_01 create event              - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 12:31:00.859 DEBUG testcase.TC_01 create event              - 5: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 12:31:01.163 DEBUG testcase.TC_01 create event              - 6: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 12:31:01.354 DEBUG testcase.TC_01 create event              - 7: click(findTestObject("Page_MSxpo - Admin Panel/span_Events"))
+2026-10-29 12:31:02.742 DEBUG testcase.TC_01 create event              - 8: click(findTestObject("Page_MSxpo - Admin Panel/span_Create Event"))
+2026-10-29 12:31:03.419 DEBUG testcase.TC_01 create event              - 9: setText(findTestObject("Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026"), event_name)
+2026-10-29 12:31:03.838 DEBUG testcase.TC_01 create event              - 10: selectOptionByLabel(findTestObject("Manage event/event_type", [event_type:""]), "", false)
+2026-10-29 12:31:04.210 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to select option by label '' of object 'Object Repository/Manage event/event_type'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/Manage event/event_type' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at TC_01 create event.run(TC_01 create event:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_9.run(S1029_9.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:337)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at Script1793193757718.run(Script1793193757718.groovy:39)
+	... 15 more
+)
+2026-10-29 12:31:04.215 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage event/TC_01 create event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/Manage event/event_type' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at TC_01 create event.run(TC_01 create event:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_9.run(S1029_9.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:337)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2026-10-29 12:31:04.219 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage event/TC_01 create event
+2026-10-29 12:31:04.222 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 12:31:04.223 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage event/TC_01 create event - Retry attempt 3
+2026-10-29 12:31:04.242 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+fgate@gmail.com
+2026-10-29 12:31:04.242 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 12:31:04.243 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_name = Test 3.0
+2026-10-29 12:31:04.243 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_type = Seminar
+2026-10-29 12:31:04.243 INFO  c.k.katalon.core.main.TestCaseExecutor   - start_date = October 31st,2026
+2026-10-29 12:31:04.244 INFO  c.k.katalon.core.main.TestCaseExecutor   - end_date = October  31st 2026
+2026-10-29 12:31:04.244 INFO  c.k.katalon.core.main.TestCaseExecutor   - description = Description
+2026-10-29 12:31:04.244 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_admin_name = event admin 2
+2026-10-29 12:31:04.245 INFO  c.k.katalon.core.main.TestCaseExecutor   - admin_email_address = aartioza2026+30@gmail.com
+2026-10-29 12:31:04.245 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone_number = 123456789
+2026-10-29 12:31:04.245 INFO  c.k.katalon.core.main.TestCaseExecutor   - question1 = what is your name
+2026-10-29 12:31:04.251 DEBUG testcase.TC_01 create event              - 1: openBrowser(null)
+2026-10-29 12:31:04.252 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-10-29 12:31:04.616 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 12:31:04.619 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 12:31:06.338 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b3d80b3f30275290bca5fa0a81fcdf2e
+2026-10-29 12:31:06.339 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 12:31:06.339 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 12:31:06.339 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 12:31:06.340 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 12:31:06.370 DEBUG testcase.TC_01 create event              - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 12:31:07.288 DEBUG testcase.TC_01 create event              - 3: maximizeWindow()
+2026-10-29 12:31:07.473 DEBUG testcase.TC_01 create event              - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 12:31:07.966 DEBUG testcase.TC_01 create event              - 5: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 12:31:08.306 DEBUG testcase.TC_01 create event              - 6: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 12:31:08.574 DEBUG testcase.TC_01 create event              - 7: click(findTestObject("Page_MSxpo - Admin Panel/span_Events"))
+2026-10-29 12:31:10.762 DEBUG testcase.TC_01 create event              - 8: click(findTestObject("Page_MSxpo - Admin Panel/span_Create Event"))
+2026-10-29 12:31:11.478 DEBUG testcase.TC_01 create event              - 9: setText(findTestObject("Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026"), event_name)
+2026-10-29 12:31:12.005 DEBUG testcase.TC_01 create event              - 10: selectOptionByLabel(findTestObject("Manage event/event_type", [event_type:""]), "", false)
+2026-10-29 12:31:12.409 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to select option by label '' of object 'Object Repository/Manage event/event_type'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/Manage event/event_type' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at TC_01 create event.run(TC_01 create event:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_9.run(S1029_9.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:337)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at Script1793193757718.run(Script1793193757718.groovy:39)
+	... 16 more
+)
+2026-10-29 12:31:12.412 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage event/TC_01 create event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/Manage event/event_type' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1332)
+	at TC_01 create event.run(TC_01 create event:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_9.run(S1029_9.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:400)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:128)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:337)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-10-29 12:31:12.417 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage event/TC_01 create event
+2026-10-29 12:31:12.754 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-10-29 12:31:12.754 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Manage event/TC_01 create event
+2026-10-29 12:31:12.754 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

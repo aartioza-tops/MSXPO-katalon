@@ -1,0 +1,321 @@
+2026-10-29 18:17:26.177 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\admin\.katalon\packages\KS-11.7.0\configuration\org.eclipse.osgi\166\0\.cp\resources\logback\logback-execution.xml
+2026-10-29 18:17:26.180 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\admin\Desktop\growtech\Masar 1\MSXPO\Include\config\log.properties
+2026-10-29 18:17:26.968 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Manage participant/invite participant
+2026-10-29 18:17:27.097 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = aarti oza
+2026-10-29 18:17:27.098 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = MSXPO
+2026-10-29 18:17:27.099 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = admin - LAPTOP-46U4UC34
+2026-10-29 18:17:27.100 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-10-29 18:17:27.101 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.5
+2026-10-29 18:17:27.103 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.7.0
+2026-10-29 18:17:27.432 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 18:17:27.432 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage participant/invite participant
+2026-10-29 18:17:27.501 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+virtual@gmail.com
+2026-10-29 18:17:27.502 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 18:17:27.503 INFO  c.k.katalon.core.main.TestCaseExecutor   - participant_name = participant 002
+2026-10-29 18:17:27.503 INFO  c.k.katalon.core.main.TestCaseExecutor   - industry = Real State
+2026-10-29 18:17:27.504 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_name = participant name
+2026-10-29 18:17:27.507 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_email = aartioza2026.std1@gmail.com
+2026-10-29 18:17:27.509 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_phone = 123456789
+2026-10-29 18:17:28.012 DEBUG testcase.invite participant              - 1: openBrowser(null)
+2026-10-29 18:17:28.313 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 18:17:28.366 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 18:17:30.934 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6c3d43c6c997ea0b2f8f48d2e9b30445
+2026-10-29 18:17:30.936 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 18:17:30.937 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 18:17:30.938 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 18:17:30.948 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 18:17:30.997 DEBUG testcase.invite participant              - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 18:17:31.637 DEBUG testcase.invite participant              - 3: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 18:17:32.356 DEBUG testcase.invite participant              - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 18:17:32.621 DEBUG testcase.invite participant              - 5: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 18:17:32.787 DEBUG testcase.invite participant              - 6: click(findTestObject("Page_MSxpo - Admin Panel/span_Participants", [industry:""]))
+2026-10-29 18:17:33.664 DEBUG testcase.invite participant              - 7: click(findTestObject("Page_MSxpo - Admin Panel/span_Invite ParticipantsInvite Participant"))
+2026-10-29 18:17:34.503 DEBUG testcase.invite participant              - 8: setText(findTestObject("Page_MSxpo - Admin Panel/input_Participant Name"), participant_name)
+2026-10-29 18:17:35.230 DEBUG testcase.invite participant              - 9: click(findTestObject("Page_MSxpo - Admin Panel/button_Select industry"))
+2026-10-29 18:17:35.589 DEBUG testcase.invite participant              - 10: waitForElementPresent(findTestObject("Page_MSxpo - Admin Panel/button_Select industry"), 10)
+2026-10-29 18:17:35.687 DEBUG testcase.invite participant              - 11: driver = DriverFactory.getWebDriver()
+2026-10-29 18:17:35.707 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage participant/invite participant FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: DriverFactory for class: Script1793266156413
+	at invite participant.run(invite participant:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_17.run(S1029_17.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:17:35.723 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage participant/invite participant FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: DriverFactory for class: Script1793266156413
+	at invite participant.run(invite participant:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_17.run(S1029_17.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:17:35.589 DEBUG testcase.invite participant              - 10: waitForElementPresent(findTestObject("Page_MSxpo - Admin Panel/button_Select industry"), 10)
+2026-10-29 18:17:35.687 DEBUG testcase.invite participant              - 11: driver = DriverFactory.getWebDriver()
+2026-10-29 18:17:35.707 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage participant/invite participant FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: DriverFactory for class: Script1793266156413
+	at invite participant.run(invite participant:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_17.run(S1029_17.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:17:35.723 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage participant/invite participant FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: DriverFactory for class: Script1793266156413
+	at invite participant.run(invite participant:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_17.run(S1029_17.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:17:35.732 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage participant/invite participant
+2026-10-29 18:17:35.750 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 18:17:35.750 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage participant/invite participant - Retry attempt 1
+2026-10-29 18:17:35.791 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+virtual@gmail.com
+2026-10-29 18:17:35.794 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 18:17:35.796 INFO  c.k.katalon.core.main.TestCaseExecutor   - participant_name = participant 002
+2026-10-29 18:17:35.797 INFO  c.k.katalon.core.main.TestCaseExecutor   - industry = Real State
+2026-10-29 18:17:35.799 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_name = participant name
+2026-10-29 18:17:35.800 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_email = aartioza2026.std1@gmail.com
+2026-10-29 18:17:35.800 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_phone = 123456789
+2026-10-29 18:17:35.807 DEBUG testcase.invite participant              - 1: openBrowser(null)
+2026-10-29 18:17:35.814 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-10-29 18:17:36.283 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 18:17:36.290 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 18:17:38.218 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9a483b662e71610de2d90c014f526e21
+2026-10-29 18:17:38.220 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 18:17:38.221 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 18:17:38.221 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 18:17:38.224 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 18:17:38.286 DEBUG testcase.invite participant              - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 18:17:39.150 DEBUG testcase.invite participant              - 3: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 18:17:40.697 DEBUG testcase.invite participant              - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 18:17:41.083 DEBUG testcase.invite participant              - 5: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 18:17:41.238 DEBUG testcase.invite participant              - 6: click(findTestObject("Page_MSxpo - Admin Panel/span_Participants", [industry:""]))
+2026-10-29 18:17:42.055 DEBUG testcase.invite participant              - 7: click(findTestObject("Page_MSxpo - Admin Panel/span_Invite ParticipantsInvite Participant"))
+2026-10-29 18:17:42.874 DEBUG testcase.invite participant              - 8: setText(findTestObject("Page_MSxpo - Admin Panel/input_Participant Name"), participant_name)
+2026-10-29 18:17:43.603 DEBUG testcase.invite participant              - 9: click(findTestObject("Page_MSxpo - Admin Panel/button_Select industry"))
+2026-10-29 18:17:43.837 DEBUG testcase.invite participant              - 10: waitForElementPresent(findTestObject("Page_MSxpo - Admin Panel/button_Select industry"), 10)
+2026-10-29 18:17:43.877 DEBUG testcase.invite participant              - 11: driver = DriverFactory.getWebDriver()
+2026-10-29 18:17:43.885 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage participant/invite participant FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: DriverFactory for class: Script1793266156413
+	at invite participant.run(invite participant:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_17.run(S1029_17.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:17:43.889 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage participant/invite participant FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: DriverFactory for class: Script1793266156413
+	at invite participant.run(invite participant:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_17.run(S1029_17.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:17:43.893 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage participant/invite participant
+2026-10-29 18:17:43.901 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 18:17:43.901 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage participant/invite participant - Retry attempt 2
+2026-10-29 18:17:43.941 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+virtual@gmail.com
+2026-10-29 18:17:43.942 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 18:17:43.943 INFO  c.k.katalon.core.main.TestCaseExecutor   - participant_name = participant 002
+2026-10-29 18:17:43.945 INFO  c.k.katalon.core.main.TestCaseExecutor   - industry = Real State
+2026-10-29 18:17:43.950 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_name = participant name
+2026-10-29 18:17:43.951 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_email = aartioza2026.std1@gmail.com
+2026-10-29 18:17:43.952 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_phone = 123456789
+2026-10-29 18:17:43.957 DEBUG testcase.invite participant              - 1: openBrowser(null)
+2026-10-29 18:17:43.960 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-10-29 18:17:44.608 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 18:17:44.611 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 18:17:46.262 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 43edb61dade55424b7f029834991a089
+2026-10-29 18:17:46.264 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 18:17:46.265 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 18:17:46.265 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 18:17:46.268 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 18:17:46.308 DEBUG testcase.invite participant              - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 18:17:47.320 DEBUG testcase.invite participant              - 3: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 18:17:47.778 DEBUG testcase.invite participant              - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 18:17:48.034 DEBUG testcase.invite participant              - 5: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 18:17:48.175 DEBUG testcase.invite participant              - 6: click(findTestObject("Page_MSxpo - Admin Panel/span_Participants", [industry:""]))
+2026-10-29 18:17:49.429 DEBUG testcase.invite participant              - 7: click(findTestObject("Page_MSxpo - Admin Panel/span_Invite ParticipantsInvite Participant"))
+2026-10-29 18:17:50.467 DEBUG testcase.invite participant              - 8: setText(findTestObject("Page_MSxpo - Admin Panel/input_Participant Name"), participant_name)
+2026-10-29 18:17:51.290 DEBUG testcase.invite participant              - 9: click(findTestObject("Page_MSxpo - Admin Panel/button_Select industry"))
+2026-10-29 18:17:51.508 DEBUG testcase.invite participant              - 10: waitForElementPresent(findTestObject("Page_MSxpo - Admin Panel/button_Select industry"), 10)
+2026-10-29 18:17:51.550 DEBUG testcase.invite participant              - 11: driver = DriverFactory.getWebDriver()
+2026-10-29 18:17:51.554 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage participant/invite participant FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: DriverFactory for class: Script1793266156413
+	at invite participant.run(invite participant:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_17.run(S1029_17.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:17:51.557 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage participant/invite participant FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: DriverFactory for class: Script1793266156413
+	at invite participant.run(invite participant:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_17.run(S1029_17.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:17:51.561 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage participant/invite participant
+2026-10-29 18:17:51.570 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 18:17:51.570 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage participant/invite participant - Retry attempt 3
+2026-10-29 18:17:51.597 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+virtual@gmail.com
+2026-10-29 18:17:51.597 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 18:17:51.602 INFO  c.k.katalon.core.main.TestCaseExecutor   - participant_name = participant 002
+2026-10-29 18:17:51.603 INFO  c.k.katalon.core.main.TestCaseExecutor   - industry = Real State
+2026-10-29 18:17:51.603 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_name = participant name
+2026-10-29 18:17:51.603 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_email = aartioza2026.std1@gmail.com
+2026-10-29 18:17:51.604 INFO  c.k.katalon.core.main.TestCaseExecutor   - contact_phone = 123456789
+2026-10-29 18:17:51.608 DEBUG testcase.invite participant              - 1: openBrowser(null)
+2026-10-29 18:17:51.610 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-10-29 18:17:52.074 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 18:17:52.078 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 18:17:53.648 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 72b099f3a27936282a69eb093d6f79ee
+2026-10-29 18:17:53.651 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 18:17:53.653 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 18:17:53.654 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 18:17:53.655 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 18:17:53.679 DEBUG testcase.invite participant              - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 18:17:55.211 DEBUG testcase.invite participant              - 3: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 18:17:55.571 DEBUG testcase.invite participant              - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 18:17:55.816 DEBUG testcase.invite participant              - 5: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 18:17:55.956 DEBUG testcase.invite participant              - 6: click(findTestObject("Page_MSxpo - Admin Panel/span_Participants", [industry:""]))
+2026-10-29 18:17:57.092 DEBUG testcase.invite participant              - 7: click(findTestObject("Page_MSxpo - Admin Panel/span_Invite ParticipantsInvite Participant"))
+2026-10-29 18:17:57.848 DEBUG testcase.invite participant              - 8: setText(findTestObject("Page_MSxpo - Admin Panel/input_Participant Name"), participant_name)
+2026-10-29 18:17:58.473 DEBUG testcase.invite participant              - 9: click(findTestObject("Page_MSxpo - Admin Panel/button_Select industry"))
+2026-10-29 18:17:58.649 DEBUG testcase.invite participant              - 10: waitForElementPresent(findTestObject("Page_MSxpo - Admin Panel/button_Select industry"), 10)
+2026-10-29 18:17:58.675 DEBUG testcase.invite participant              - 11: driver = DriverFactory.getWebDriver()
+2026-10-29 18:17:58.677 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage participant/invite participant FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: DriverFactory for class: Script1793266156413
+	at invite participant.run(invite participant:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_17.run(S1029_17.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:17:58.680 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage participant/invite participant FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: DriverFactory for class: Script1793266156413
+	at invite participant.run(invite participant:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_17.run(S1029_17.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:17:58.683 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage participant/invite participant
+2026-10-29 18:17:59.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-10-29 18:17:59.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Manage participant/invite participant
+2026-10-29 18:17:59.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

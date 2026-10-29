@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MSxpo - Admin Panel/span_radix-_r_4q",
+      "brokenLocator": "//*[@aria-labelledby \u003d \u0027radix-_r_4q_\u0027]//*[(name() \u003d \u0027span\u0027) and (position() \u003d 2)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//option[@value\u003d\u0027EXHIBITION\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MSxpo - Admin Panel/input_Person Name",
+      "brokenLocator": "//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 align-top \u0027) and (position() \u003d 2)]//*[@type \u003d \u0027text\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@value\u003d\u0027participant 002\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_MSxpo - Admin Panel/input_Person Name_XPATH.png"
+    }
+  ]
+}

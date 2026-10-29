@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_MSxpo - Admin Panel/span_radix-_r_4q",
+      "brokenLocator": "//*[@aria-labelledby \u003d \u0027radix-_r_4q_\u0027]//*[(name() \u003d \u0027span\u0027) and (position() \u003d 2)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//option[@value\u003d\u0027EXHIBITION\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20261029_112950/Manage event"
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_01 create event" time="105.43" tests="1" passed="0" failures="1" errors="0" incompleted="0" skipped="0">
+   <testsuite name="TC_01 create event" tests="1" passed="0" failures="1" errors="0" incompleted="0" skipped="0" time="105.43" timestamp="2026-10-29T07:05:08.507Z" hostname="admin - LAPTOP-46U4UC34" id="Test Suites/Manage event/TC_01 create event" status="FAILED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_123503\\Manage event\\TC_01 create event\\20261029_123503"/>
+         <property name="logFiles" value="C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_123503\\Manage event\\TC_01 create event\\20261029_123503\\console0.log, C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_123503\\Manage event\\TC_01 create event\\20261029_123503\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_123503\\Manage event\\TC_01 create event\\20261029_123503\\1793257552012.png, C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_123503\\Manage event\\TC_01 create event\\20261029_123503\\1793257571932.png, C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_123503\\Manage event\\TC_01 create event\\20261029_123503\\1793257590339.png, C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_123503\\Manage event\\TC_01 create event\\20261029_123503\\1793257613812.png"/>
+         <property name="hostName" value="admin - LAPTOP-46U4UC34"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.7.0"/>
+         <property name="userFullName" value="aarti oza"/>
+         <property name="sessionId" value="4fff39356c5c08496276b5a675c21ea9"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="executionPlanRevision" value="{&quot;testCaseId&quot;:&quot;Test Cases/Manage event/TC_01 create event&quot;,&quot;plannedEntryId&quot;:&quot;c3befa27-e55b-4b16-b7d4-98cb78506130&quot;,&quot;iterationIds&quot;:[&quot;c3befa27-e55b-4b16-b7d4-98cb78506130&quot;],&quot;boundVariableNames&quot;:[&quot;email_address&quot;,&quot;password&quot;,&quot;event_name&quot;,&quot;event_type&quot;,&quot;start_date&quot;,&quot;end_date&quot;,&quot;description&quot;,&quot;event_admin_name&quot;,&quot;admin_email_address&quot;,&quot;phone_number&quot;,&quot;question1&quot;],&quot;iterationLabels&quot;:[&quot;&quot;]}"/>
+         <property name="platform" value="Windows 11"/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;aartioza2026+fgate@gmail.com&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;email_address&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Admin@123&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;password&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Test 3.0&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;event_name&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Seminar&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;event_type&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;October 31st,2026&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;start_date&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;October  31st 2026&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;end_date&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Description&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;description&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;event admin 2&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;event_admin_name&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;aartioza2026+30@gmail.com&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;admin_email_address&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;123456789&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;phone_number&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;what is your name&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;question1&quot;,&#xa;    &quot;masked&quot;: false&#xa;  }&#xa;]"/>
+         <property name="browser" value="Chrome 156.0.8078.48"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="projectName" value="MSXPO"/>
+         <property name="seleniumVersion" value="4.46.0"/>
+      </properties>
+      <testcase name="Test Cases/Manage event/TC_01 create event" time="23.432" classname="Test Cases/Manage event/TC_01 create event" status="FAILED" tag="GenAI">
+         <properties>
+            <property name="data_binding"><![CDATA[{"end_date":"October  31st 2026","event_admin_nam...":"event admin 2","password":"Admin@123","email_address":"aartioza2026+fgate@gmail.com","event_type":"Seminar","admin_email_add...":"aartioza2026+30@gmail.com","event_name":"Test 3.0","description":"Description","phone_number":"123456789","question1":"what is your name","start_date":"October 31st,2026"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/Manage event/TC_01 create event FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text '123456789' of object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)&#xa;	at TC_01 create event.run(TC_01 create event:76)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)&#xa;	at S1029_10.run(S1029_10.groovy:41)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000' located by 'By.xpath: //*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-e-md ')]' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:97)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[29-10-2026T12:36:30 - [TEST_CASE][FAILED] - Test Cases/Manage event/TC_01 create event: Test Cases/Manage event/TC_01 create event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '123456789' of object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at TC_01 create event.run(TC_01 create event:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_10.run(S1029_10.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000' located by 'By.xpath: //*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-e-md ')]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:97)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+
+29-10-2026T12:36:30 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+29-10-2026T12:36:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-10-2026T12:36:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-10-2026T12:36:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-10-2026T12:36:32 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+29-10-2026T12:36:32 - [TEST_STEP][PASSED] - navigateToUrl("https://app.msxpo.sa/login"): Navigate to 'https://app.msxpo.sa/login' successfully
+
+29-10-2026T12:36:33 - [MESSAGE][PASSED] - Navigate to 'https://app.msxpo.sa/login' successfully
+
+29-10-2026T12:36:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-10-2026T12:36:33 - [MESSAGE][PASSED] - Current window maximized
+
+29-10-2026T12:36:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address): Text 'aartioza2026+fgate@gmail.com' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your email'
+
+29-10-2026T12:36:34 - [MESSAGE][PASSED] - Text 'aartioza2026+fgate@gmail.com' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your email'
+
+29-10-2026T12:36:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password): Text 'Admin@123' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your password'
+
+29-10-2026T12:36:34 - [MESSAGE][PASSED] - Text 'Admin@123' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your password'
+
+29-10-2026T12:36:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In")): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Sign In' is clicked on
+
+29-10-2026T12:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Sign In' is clicked on
+
+29-10-2026T12:36:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/span_Events")): Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Events' is clicked on
+
+29-10-2026T12:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Events' is clicked on
+
+29-10-2026T12:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/span_Create Event")): Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Create Event' is clicked on
+
+29-10-2026T12:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Create Event' is clicked on
+
+29-10-2026T12:36:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026"), event_name): Text 'Test 3.0' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026'
+
+29-10-2026T12:36:37 - [MESSAGE][PASSED] - Text 'Test 3.0' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026'
+
+29-10-2026T12:36:37 - [TEST_STEP][PASSED] - eventTypeTrigger = findTestObject("Manage event/event_type_trigger"): null
+
+29-10-2026T12:36:37 - [TEST_STEP][PASSED] - if (!(verifyElementPresent(eventTypeTrigger, 5, OPTIONAL))): Object 'Object Repository/Manage event/event_type_trigger' is present
+
+29-10-2026T12:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/Manage event/event_type_trigger' is present
+
+29-10-2026T12:36:37 - [TEST_STEP][PASSED] - click(eventTypeTrigger): Object: 'Object Repository/Manage event/event_type_trigger' is clicked on
+
+29-10-2026T12:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage event/event_type_trigger' is clicked on
+
+29-10-2026T12:36:37 - [TEST_STEP][PASSED] - eventTypeOption = findTestObject("Manage event/event_type_option", ["event_type":event_type]): null
+
+29-10-2026T12:36:37 - [TEST_STEP][PASSED] - waitForElementVisible(eventTypeOption, 5): Object 'Object Repository/Manage event/event_type_option' is visible
+
+29-10-2026T12:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/Manage event/event_type_option' is visible
+
+29-10-2026T12:36:37 - [TEST_STEP][PASSED] - click(eventTypeOption): Object: 'Object Repository/Manage event/event_type_option' is clicked on
+
+29-10-2026T12:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage event/event_type_option' is clicked on
+
+29-10-2026T12:36:37 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0.5 second(s)
+
+29-10-2026T12:36:38 - [MESSAGE][PASSED] - Delayed 0.5 second(s)
+
+29-10-2026T12:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/span_Select start date", [end_date:""])): Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Select start date' is clicked on
+
+29-10-2026T12:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Select start date' is clicked on
+
+29-10-2026T12:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026")): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is clicked on
+
+29-10-2026T12:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is clicked on
+
+29-10-2026T12:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/span_Select end date")): Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Select end date' is clicked on
+
+29-10-2026T12:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/span_Select end date' is clicked on
+
+29-10-2026T12:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026")): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is clicked on
+
+29-10-2026T12:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026' is clicked on
+
+29-10-2026T12:36:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/textarea_Brief event overview"), description): Text 'Description' is set on object 'Object Repository/Page_MSxpo - Admin Panel/textarea_Brief event overview'
+
+29-10-2026T12:36:39 - [MESSAGE][PASSED] - Text 'Description' is set on object 'Object Repository/Page_MSxpo - Admin Panel/textarea_Brief event overview'
+
+29-10-2026T12:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/button_Continue")): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Continue' is clicked on
+
+29-10-2026T12:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Continue' is clicked on
+
+29-10-2026T12:36:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-3 w-3")): Object: 'Object Repository/Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-3 w-3' is clicked on
+
+29-10-2026T12:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-3 w-3' is clicked on
+
+29-10-2026T12:36:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_Full name"), event_admin_name): Text 'event admin 2' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Full name'
+
+29-10-2026T12:36:40 - [MESSAGE][PASSED] - Text 'event admin 2' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Full name'
+
+29-10-2026T12:36:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-4 w-4 text-")): Object: 'Object Repository/Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-4 w-4 text-' is clicked on
+
+29-10-2026T12:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-4 w-4 text-' is clicked on
+
+29-10-2026T12:36:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_Email address"), admin_email_address): Text 'aartioza2026+30@gmail.com' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Email address'
+
+29-10-2026T12:36:41 - [MESSAGE][PASSED] - Text 'aartioza2026+30@gmail.com' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Email address'
+
+29-10-2026T12:36:41 - [TEST_STEP][FAILED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_500 000 000"), phone_number): Unable to set text '123456789' of object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '123456789' of object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at TC_01 create event.run(TC_01 create event:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_10.run(S1029_10.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000' located by 'By.xpath: //*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-e-md ')]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:97)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script1793193757718.run(Script1793193757718.groovy:76)
+	... 16 more
+)
+
+29-10-2026T12:36:51 - [MESSAGE][INFO] - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+
+29-10-2026T12:36:53 - [MESSAGE][INFO] - [AI Self-Healing] No possible locators found
+
+29-10-2026T12:36:53 - [MESSAGE][FAILED] - Unable to set text '123456789' of object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '123456789' of object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at TC_01 create event.run(TC_01 create event:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_10.run(S1029_10.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000' located by 'By.xpath: //*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-e-md ')]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:97)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at Script1793193757718.run(Script1793193757718.groovy:76)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_123503\\Manage event\\TC_01 create event\\20261029_123503\\1793257613812.png]]]]></system-out>
+         <system-err><![CDATA[29-10-2026T12:36:30 - [TEST_CASE][FAILED] - Test Cases/Manage event/TC_01 create event: Test Cases/Manage event/TC_01 create event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '123456789' of object 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:110)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1082)
+	at TC_01 create event.run(TC_01 create event:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:453)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_10.run(S1029_10.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MSxpo - Admin Panel/input_500 000 000' located by 'By.xpath: //*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-e-md ')]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:199)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:97)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:80)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:75)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:49)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.lambda$1(WebUIAbstractKeyword.java:119)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:116)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy53.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-10-2026T12:35:08 - [TEST_SUITE][FAILED] - TC_01 create event: null]]></system-out>
+      <system-err><![CDATA[29-10-2026T12:35:08 - [TEST_SUITE][FAILED] - TC_01 create event: null]]></system-err>
+   </testsuite>
+</testsuites>

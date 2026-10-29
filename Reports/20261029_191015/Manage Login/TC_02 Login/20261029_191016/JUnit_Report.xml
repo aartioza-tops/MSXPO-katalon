@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_02 Login" time="6.67" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="TC_02 Login" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="6.67" timestamp="2026-10-29T13:40:21.976Z" hostname="admin - LAPTOP-46U4UC34" id="Test Suites/Manage Login/TC_02 Login" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_191015\\Manage Login\\TC_02 Login\\20261029_191016"/>
+         <property name="logFiles" value="C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_191015\\Manage Login\\TC_02 Login\\20261029_191016\\console0.log, C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_191015\\Manage Login\\TC_02 Login\\20261029_191016\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - LAPTOP-46U4UC34"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.7.0"/>
+         <property name="userFullName" value="aarti oza"/>
+         <property name="sessionId" value="8ff99ee735582fac16f74e5d1b84084f"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="executionPlanRevision" value="{&quot;testCaseId&quot;:&quot;Test Cases/Manage Login/TC_02 Login&quot;,&quot;plannedEntryId&quot;:&quot;db3b7905-ec23-4111-8952-51e445b62132&quot;,&quot;iterationIds&quot;:[&quot;db3b7905-ec23-4111-8952-51e445b62132&quot;],&quot;boundVariableNames&quot;:[&quot;email_address&quot;,&quot;password&quot;,&quot;role&quot;],&quot;iterationLabels&quot;:[&quot;&quot;]}"/>
+         <property name="platform" value="Windows 11"/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;aartioza2026+fgate@gmail.com&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;email_address&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Admin@123&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;password&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;Event Host&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;role&quot;,&#xa;    &quot;masked&quot;: false&#xa;  }&#xa;]"/>
+         <property name="browser" value="Chrome 156.0.8078.48"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="projectName" value="MSXPO"/>
+         <property name="seleniumVersion" value="4.46.0"/>
+      </properties>
+      <testcase name="Test Cases/Manage Login/TC_02 Login" time="6.386" classname="Test Cases/Manage Login/TC_02 Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"Admin@123","email_address":"aartioza2026+fgate@gmail.com","role":"Event Host"}]]></property>
+         </properties>
+         <system-out><![CDATA[29-10-2026T19:10:22 - [TEST_CASE][PASSED] - Test Cases/Manage Login/TC_02 Login: Test Cases/Manage Login/TC_02 Login
+
+29-10-2026T19:10:22 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+29-10-2026T19:10:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-10-2026T19:10:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-10-2026T19:10:25 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+29-10-2026T19:10:25 - [TEST_STEP][PASSED] - navigateToUrl("https://app.msxpo.sa/login"): Navigate to 'https://app.msxpo.sa/login' successfully
+
+29-10-2026T19:10:26 - [MESSAGE][PASSED] - Navigate to 'https://app.msxpo.sa/login' successfully
+
+29-10-2026T19:10:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-10-2026T19:10:26 - [MESSAGE][PASSED] - Current window maximized
+
+29-10-2026T19:10:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address): Text 'aartioza2026+fgate@gmail.com' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your email'
+
+29-10-2026T19:10:27 - [MESSAGE][PASSED] - Text 'aartioza2026+fgate@gmail.com' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your email'
+
+29-10-2026T19:10:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password): Text 'Admin@123' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your password'
+
+29-10-2026T19:10:27 - [MESSAGE][PASSED] - Text 'Admin@123' is set on object 'Object Repository/Page_MSxpo - Admin Panel/input_Enter your password'
+
+29-10-2026T19:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In")): Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Sign In' is clicked on
+
+29-10-2026T19:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MSxpo - Admin Panel/button_Sign In' is clicked on
+
+29-10-2026T19:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Manage participant/role name"), STOP_ON_FAILURE): Object: 'Object Repository/Manage participant/role name' is clicked on
+
+29-10-2026T19:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage participant/role name' is clicked on
+
+29-10-2026T19:10:28 - [TEST_STEP][PASSED] - if (role == "Event Host" || "Event admin" || "Super admin" || "Participant admin"): null
+
+29-10-2026T19:10:28 - [TEST_STEP][PASSED] - print("pass"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-10-2026T19:10:21 - [TEST_SUITE][PASSED] - TC_02 Login: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

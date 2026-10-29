@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_02 Login,Chrome 156.0.8078.48,,,29-10-2026 19:09:15,29-10-2026 19:09:23,8.418s,PASSED
+,,,,,,,
+Test Cases/Manage Login/TC_02 Login,Chrome 156.0.8078.48,,,29-10-2026 19:09:15,29-10-2026 19:09:22,7.352s,PASSED
+"DATA BINDING - {""password"":""Admin@123"",""email_address"":""aartioza2026+fgate@gmail.com"",""role"":""Event Host""}",,,,,,,
+openBrowser(null),Chrome 156.0.8078.48,,,29-10-2026 19:09:15,29-10-2026 19:09:19,3.254s,PASSED
+"navigateToUrl(""https://app.msxpo.sa/login"")",Chrome 156.0.8078.48,,,29-10-2026 19:09:19,29-10-2026 19:09:20,1.139s,PASSED
+maximizeWindow(),Chrome 156.0.8078.48,,,29-10-2026 19:09:20,29-10-2026 19:09:20,0.133s,PASSED
+"setText(findTestObject(""Page_MSxpo - Admin Panel/input_Enter your email""), email_address)",Chrome 156.0.8078.48,,,29-10-2026 19:09:20,29-10-2026 19:09:21,0.678s,PASSED
+"setText(findTestObject(""Page_MSxpo - Admin Panel/input_Enter your password""), password)",Chrome 156.0.8078.48,,,29-10-2026 19:09:21,29-10-2026 19:09:21,0.248s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/button_Sign In""))",Chrome 156.0.8078.48,,,29-10-2026 19:09:21,29-10-2026 19:09:21,0.165s,PASSED
+"click(findTestObject(""Manage participant/role name""), STOP_ON_FAILURE)",Chrome 156.0.8078.48,,,29-10-2026 19:09:21,29-10-2026 19:09:22,1.207s,PASSED
+"if (role == ""Event Host"" || ""Event admin"" || ""Super admin"" || ""Participant admin"")",Chrome 156.0.8078.48,,,29-10-2026 19:09:22,29-10-2026 19:09:22,0.015s,PASSED

@@ -1,0 +1,25 @@
+[0.016s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "groovy.lang.GroovyClassLoader"). To use archived non-system classes, this property must not be set
+2026-10-29 18:34:47.148 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\admin\.katalon\packages\KS-11.7.0\configuration\org.eclipse.osgi\166\0\.cp\resources\logback\logback-execution.xml
+2026-10-29 18:34:47.151 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\admin\Desktop\growtech\Masar 1\MSXPO\Include\config\log.properties
+2026-10-29 18:34:47.989 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Manage Login/TC_02 Login
+2026-10-29 18:34:48.112 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = aarti oza
+2026-10-29 18:34:48.113 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = MSXPO
+2026-10-29 18:34:48.114 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = admin - LAPTOP-46U4UC34
+2026-10-29 18:34:48.116 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-10-29 18:34:48.117 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.5
+2026-10-29 18:34:48.118 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.7.0
+2026-10-29 18:34:48.528 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 18:34:48.528 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage Login/TC_02 Login
+2026-10-29 18:34:48.652 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage Login/TC_02 Login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script18039321222300.groovy: 33: Modifiers or return type is required @ line 33, column 1.
+   var(role = WebUI.getText(findTestObject('Page_MSxpo - Admin Panel/p_Event Host')))
+   ^
+
+1 error
+
+2026-10-29 18:34:48.665 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage Login/TC_02 Login
+2026-10-29 18:34:48.794 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-10-29 18:34:48.797 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Manage Login/TC_02 Login
+2026-10-29 18:34:48.797 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

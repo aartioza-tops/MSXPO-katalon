@@ -1,0 +1,35 @@
+[0.011s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "groovy.lang.GroovyClassLoader"). To use archived non-system classes, this property must not be set
+2026-10-29 19:27:08.951 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\admin\.katalon\packages\KS-11.7.0\configuration\org.eclipse.osgi\166\0\.cp\resources\logback\logback-execution.xml
+2026-10-29 19:27:08.956 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\admin\Desktop\growtech\Masar 1\MSXPO\Include\config\log.properties
+2026-10-29 19:27:09.753 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Manage Login/TC_02 Login
+2026-10-29 19:27:09.864 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = aarti oza
+2026-10-29 19:27:09.866 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = MSXPO
+2026-10-29 19:27:09.867 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = admin - LAPTOP-46U4UC34
+2026-10-29 19:27:09.868 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-10-29 19:27:09.870 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.5
+2026-10-29 19:27:09.870 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.7.0
+2026-10-29 19:27:10.159 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 19:27:10.160 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage Login/TC_02 Login
+2026-10-29 19:27:10.240 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+fgate@gmail.com
+2026-10-29 19:27:10.241 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 19:27:10.241 INFO  c.k.katalon.core.main.TestCaseExecutor   - role = Event Host
+2026-10-29 19:27:10.700 DEBUG testcase.TC_02 Login                     - 1: openBrowser(null)
+2026-10-29 19:27:11.084 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 19:27:11.174 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 19:27:13.737 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 09e060139002db98e97f9e03bd9b10b4
+2026-10-29 19:27:13.742 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 19:27:13.743 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 19:27:13.744 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 19:27:13.751 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 19:27:13.799 DEBUG testcase.TC_02 Login                     - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 19:27:14.886 DEBUG testcase.TC_02 Login                     - 3: maximizeWindow()
+2026-10-29 19:27:15.070 DEBUG testcase.TC_02 Login                     - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 19:27:15.897 DEBUG testcase.TC_02 Login                     - 5: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 19:27:16.279 DEBUG testcase.TC_02 Login                     - 6: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 19:27:16.500 DEBUG testcase.TC_02 Login                     - 7: click(findTestObject("Manage participant/role name"), STOP_ON_FAILURE)
+2026-10-29 19:27:17.434 DEBUG testcase.TC_02 Login                     - 8: if (role == "Event Host" || "Event admin" || "Super admin" || "Participant admin")
+2026-10-29 19:27:17.443 DEBUG testcase.TC_02 Login                     - 1: print("pass")
+pass2026-10-29 19:27:17.458 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage Login/TC_02 Login
+2026-10-29 19:27:17.996 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-10-29 19:27:17.996 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Manage Login/TC_02 Login
+2026-10-29 19:27:17.996 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_01 create event,Chrome 156.0.8078.48,,,29-10-2026 16:10:12,29-10-2026 16:10:33,21.345s,PASSED
+,,,,,,,
+Test Cases/Manage event/TC_01 create event,Chrome 156.0.8078.48,,GenAI,29-10-2026 16:10:12,29-10-2026 16:10:33,20.228s,PASSED
+"DATA BINDING - {""end_date"":""October  31st 2026"",""event_admin_nam..."":""event admin 2"",""password"":""Admin@123"",""email_address"":""aartioza2026+fgate@gmail.com"",""event_type"":""Seminar"",""admin_email_add..."":""aartioza2026+40@gmail.com"",""event_name"":""Test 4.0"",""description"":""Description"",""phone_number"":""123456789"",""question1"":""what is your name"",""start_date"":""October 31st,2026""}",,,,,,,
+openBrowser(null),Chrome 156.0.8078.48,,,29-10-2026 16:10:13,29-10-2026 16:10:18,5.012s,PASSED
+"navigateToUrl(""https://app.msxpo.sa/login"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:18,29-10-2026 16:10:19,1.141s,PASSED
+maximizeWindow(),Chrome 156.0.8078.48,,,29-10-2026 16:10:19,29-10-2026 16:10:20,0.264s,PASSED
+"setText(findTestObject(""Page_MSxpo - Admin Panel/input_Enter your email""), email_address)",Chrome 156.0.8078.48,,,29-10-2026 16:10:20,29-10-2026 16:10:21,1.586s,PASSED
+"setText(findTestObject(""Page_MSxpo - Admin Panel/input_Enter your password""), password)",Chrome 156.0.8078.48,,,29-10-2026 16:10:21,29-10-2026 16:10:22,0.717s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/button_Sign In""))",Chrome 156.0.8078.48,,,29-10-2026 16:10:22,29-10-2026 16:10:23,0.991s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/span_Events""))",Chrome 156.0.8078.48,,,29-10-2026 16:10:23,29-10-2026 16:10:24,1.007s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/span_Create Event""))",Chrome 156.0.8078.48,,,29-10-2026 16:10:24,29-10-2026 16:10:25,1.158s,PASSED
+"setText(findTestObject(""Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026""), event_name)",Chrome 156.0.8078.48,,,29-10-2026 16:10:25,29-10-2026 16:10:26,0.498s,PASSED
+"eventTypeTrigger = findTestObject(""Manage event/event_type_trigger"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:26,29-10-2026 16:10:26,0.014s,PASSED
+"if (!(verifyElementPresent(eventTypeTrigger, 5, OPTIONAL)))",Chrome 156.0.8078.48,,,29-10-2026 16:10:26,29-10-2026 16:10:26,0.081s,PASSED
+click(eventTypeTrigger),Chrome 156.0.8078.48,,,29-10-2026 16:10:26,29-10-2026 16:10:26,0.156s,PASSED
+"eventTypeOption = findTestObject(""Manage event/event_type_option"", [""event_type"":event_type])",Chrome 156.0.8078.48,,,29-10-2026 16:10:26,29-10-2026 16:10:26,0.024s,PASSED
+"waitForElementVisible(eventTypeOption, 5)",Chrome 156.0.8078.48,,,29-10-2026 16:10:26,29-10-2026 16:10:27,0.892s,PASSED
+click(eventTypeOption),Chrome 156.0.8078.48,,,29-10-2026 16:10:27,29-10-2026 16:10:27,0.102s,PASSED
+delay(0.5),Chrome 156.0.8078.48,,,29-10-2026 16:10:27,29-10-2026 16:10:28,0.551s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/span_Select start date"", [end_date:""""]))",Chrome 156.0.8078.48,,,29-10-2026 16:10:28,29-10-2026 16:10:28,0.192s,PASSED
+"startDayCell = findTestObject(""Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:28,29-10-2026 16:10:28,0.007s,PASSED
+"waitForElementPresent(startDayCell, 10)",Chrome 156.0.8078.48,,,29-10-2026 16:10:28,29-10-2026 16:10:28,0.034s,PASSED
+click(startDayCell),Chrome 156.0.8078.48,,,29-10-2026 16:10:28,29-10-2026 16:10:28,0.146s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/span_Select end date""))",Chrome 156.0.8078.48,,,29-10-2026 16:10:28,29-10-2026 16:10:28,0.155s,PASSED
+"endDayCell = findTestObject(""Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:28,29-10-2026 16:10:28,0.013s,PASSED
+"waitForElementPresent(endDayCell, 10)",Chrome 156.0.8078.48,,,29-10-2026 16:10:28,29-10-2026 16:10:28,0.022s,PASSED
+click(endDayCell),Chrome 156.0.8078.48,,,29-10-2026 16:10:28,29-10-2026 16:10:28,0.151s,PASSED
+"setText(findTestObject(""Page_MSxpo - Admin Panel/textarea_Brief event overview""), description)",Chrome 156.0.8078.48,,,29-10-2026 16:10:28,29-10-2026 16:10:29,0.869s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/button_Continue""))",Chrome 156.0.8078.48,,,29-10-2026 16:10:29,29-10-2026 16:10:29,0.186s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-3 w-3""))",Chrome 156.0.8078.48,,,29-10-2026 16:10:29,29-10-2026 16:10:29,0.188s,PASSED
+"adminFullName = findTestObject(""Page_MSxpo - Admin Panel/input_Full name"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:29,29-10-2026 16:10:30,0.017s,PASSED
+"waitForElementPresent(adminFullName, 15)",Chrome 156.0.8078.48,,,29-10-2026 16:10:30,29-10-2026 16:10:30,0.046s,PASSED
+"setText(adminFullName, event_admin_name)",Chrome 156.0.8078.48,,,29-10-2026 16:10:30,29-10-2026 16:10:30,0.554s,PASSED
+"addNewAdmin = findTestObject(""Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-4 w-4 text-"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:30,29-10-2026 16:10:30,0.018s,PASSED
+"waitForElementPresent(addNewAdmin, 10)",Chrome 156.0.8078.48,,,29-10-2026 16:10:30,29-10-2026 16:10:30,0.040s,PASSED
+click(addNewAdmin),Chrome 156.0.8078.48,,,29-10-2026 16:10:30,29-10-2026 16:10:30,0.151s,PASSED
+delay(0.5),Chrome 156.0.8078.48,,,29-10-2026 16:10:30,29-10-2026 16:10:31,0.521s,PASSED
+"adminPhone = findTestObject(""Page_MSxpo - Admin Panel/input_500 000 000"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:31,29-10-2026 16:10:31,0.011s,PASSED
+"waitForElementPresent(adminPhone, 10)",Chrome 156.0.8078.48,,,29-10-2026 16:10:31,29-10-2026 16:10:31,0.025s,PASSED
+"setText(adminPhone, phone_number)",Chrome 156.0.8078.48,,,29-10-2026 16:10:31,29-10-2026 16:10:31,0.304s,PASSED
+"adminEmail = findTestObject(""Page_MSxpo - Admin Panel/input_Email address"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:31,29-10-2026 16:10:31,0.012s,PASSED
+"waitForElementPresent(adminEmail, 10)",Chrome 156.0.8078.48,,,29-10-2026 16:10:31,29-10-2026 16:10:31,0.031s,PASSED
+"setText(adminEmail, admin_email_address)",Chrome 156.0.8078.48,,,29-10-2026 16:10:31,29-10-2026 16:10:32,0.334s,PASSED
+"click(findTestObject(""Page_MSxpo - Admin Panel/button_Continue_1""))",Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:32,0.224s,PASSED
+"questionnaireContinue = findTestObject(""Page_MSxpo - Admin Panel/button_Continue_2"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:32,0.013s,PASSED
+"waitForElementPresent(questionnaireContinue, 15)",Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:32,0.031s,PASSED
+click(questionnaireContinue),Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:32,0.215s,PASSED
+"skipFloorPlanner = findTestObject(""Page_MSxpo - Admin Panel/button_Skip Floor Planner"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:32,0.011s,PASSED
+"waitForElementPresent(skipFloorPlanner, 15)",Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:32,0.024s,PASSED
+click(skipFloorPlanner),Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:32,0.168s,PASSED
+"saveAsDraft = findTestObject(""Page_MSxpo - Admin Panel/button_Save as Draft"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:32,0.008s,PASSED
+"waitForElementPresent(saveAsDraft, 15)",Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:32,0.032s,PASSED
+click(saveAsDraft),Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:32,0.180s,PASSED
+"savedEventTitle = findTestObject(""Page_MSxpo - Admin Panel/h1_Test 2.0"")",Chrome 156.0.8078.48,,,29-10-2026 16:10:32,29-10-2026 16:10:33,0.013s,PASSED
+"waitForElementPresent(savedEventTitle, 10, OPTIONAL)",Chrome 156.0.8078.48,,,29-10-2026 16:10:33,29-10-2026 16:10:33,0.023s,PASSED
+"click(savedEventTitle, OPTIONAL)",Chrome 156.0.8078.48,,,29-10-2026 16:10:33,29-10-2026 16:10:33,0.133s,PASSED

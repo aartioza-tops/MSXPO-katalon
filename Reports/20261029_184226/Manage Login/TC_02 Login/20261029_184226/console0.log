@@ -1,0 +1,71 @@
+[0.009s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "groovy.lang.GroovyClassLoader"). To use archived non-system classes, this property must not be set
+2026-10-29 18:42:29.354 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\admin\.katalon\packages\KS-11.7.0\configuration\org.eclipse.osgi\166\0\.cp\resources\logback\logback-execution.xml
+2026-10-29 18:42:29.357 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\admin\Desktop\growtech\Masar 1\MSXPO\Include\config\log.properties
+2026-10-29 18:42:29.978 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Manage Login/TC_02 Login
+2026-10-29 18:42:30.057 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = aarti oza
+2026-10-29 18:42:30.059 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = MSXPO
+2026-10-29 18:42:30.060 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = admin - LAPTOP-46U4UC34
+2026-10-29 18:42:30.061 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-10-29 18:42:30.062 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.5
+2026-10-29 18:42:30.064 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.7.0
+2026-10-29 18:42:30.278 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 18:42:30.279 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage Login/TC_02 Login
+2026-10-29 18:42:30.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+fgate@gmail.com
+2026-10-29 18:42:30.335 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 18:42:30.336 INFO  c.k.katalon.core.main.TestCaseExecutor   - role = Event Host
+2026-10-29 18:42:30.682 DEBUG testcase.TC_02 Login                     - 1: openBrowser(null)
+2026-10-29 18:42:31.065 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 18:42:31.138 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 18:42:34.838 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9bd1404bfca214d887f3b1a8bc5fdcca
+2026-10-29 18:42:34.840 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 18:42:34.841 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 18:42:34.842 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 18:42:34.861 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 18:42:34.958 DEBUG testcase.TC_02 Login                     - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 18:42:35.976 DEBUG testcase.TC_02 Login                     - 3: maximizeWindow()
+2026-10-29 18:42:36.143 DEBUG testcase.TC_02 Login                     - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 18:42:37.002 DEBUG testcase.TC_02 Login                     - 5: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 18:42:37.336 DEBUG testcase.TC_02 Login                     - 6: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 18:42:37.588 DEBUG testcase.TC_02 Login                     - 7: role = getText(findTestObject("Page_MSxpo - Admin Panel/p_Event Host").toString())
+2026-10-29 18:42:37.755 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage Login/TC_02 Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText() is applicable for argument types: (String) values: [TestObject - 'Object Repository/Page_MSxpo - Admin Panel/p_Event Host']
+Possible solutions: getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), getAt(java.lang.String), getUrl()
+	at TC_02 Login.run(TC_02 Login:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_26.run(S1029_26.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:42:37.878 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Manage Login/TC_02 Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText() is applicable for argument types: (String) values: [TestObject - 'Object Repository/Page_MSxpo - Admin Panel/p_Event Host']
+Possible solutions: getText(com.kms.katalon.core.testobject.TestObject), getText(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String), setText(com.kms.katalon.core.testobject.TestObject, java.lang.String, com.kms.katalon.core.model.FailureHandling), getAt(java.lang.String), getUrl()
+	at TC_02 Login.run(TC_02 Login:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:533)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:524)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:503)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:359)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_26.run(S1029_26.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+2026-10-29 18:42:37.942 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage Login/TC_02 Login
+2026-10-29 18:42:38.564 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-10-29 18:42:38.565 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Manage Login/TC_02 Login
+2026-10-29 18:42:38.565 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

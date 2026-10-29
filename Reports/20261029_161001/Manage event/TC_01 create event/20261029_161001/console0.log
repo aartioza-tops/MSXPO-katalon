@@ -1,0 +1,87 @@
+[0.026s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "groovy.lang.GroovyClassLoader"). To use archived non-system classes, this property must not be set
+2026-10-29 16:10:11.516 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\admin\.katalon\packages\KS-11.7.0\configuration\org.eclipse.osgi\166\0\.cp\resources\logback\logback-execution.xml
+2026-10-29 16:10:11.521 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\admin\Desktop\growtech\Masar 1\MSXPO\Include\config\log.properties
+2026-10-29 16:10:12.384 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Manage event/TC_01 create event
+2026-10-29 16:10:12.509 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = aarti oza
+2026-10-29 16:10:12.511 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = MSXPO
+2026-10-29 16:10:12.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = admin - LAPTOP-46U4UC34
+2026-10-29 16:10:12.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-10-29 16:10:12.513 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.5
+2026-10-29 16:10:12.514 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.7.0
+2026-10-29 16:10:12.934 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-29 16:10:12.935 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Manage event/TC_01 create event
+2026-10-29 16:10:13.069 INFO  c.k.katalon.core.main.TestCaseExecutor   - email_address = aartioza2026+fgate@gmail.com
+2026-10-29 16:10:13.071 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = Admin@123
+2026-10-29 16:10:13.075 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_name = Test 4.0
+2026-10-29 16:10:13.076 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_type = Seminar
+2026-10-29 16:10:13.076 INFO  c.k.katalon.core.main.TestCaseExecutor   - start_date = October 31st,2026
+2026-10-29 16:10:13.077 INFO  c.k.katalon.core.main.TestCaseExecutor   - end_date = October  31st 2026
+2026-10-29 16:10:13.078 INFO  c.k.katalon.core.main.TestCaseExecutor   - description = Description
+2026-10-29 16:10:13.078 INFO  c.k.katalon.core.main.TestCaseExecutor   - event_admin_name = event admin 2
+2026-10-29 16:10:13.080 INFO  c.k.katalon.core.main.TestCaseExecutor   - admin_email_address = aartioza2026+40@gmail.com
+2026-10-29 16:10:13.080 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone_number = 123456789
+2026-10-29 16:10:13.081 INFO  c.k.katalon.core.main.TestCaseExecutor   - question1 = what is your name
+2026-10-29 16:10:13.816 DEBUG testcase.TC_01 create event              - 1: openBrowser(null)
+2026-10-29 16:10:14.240 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-29 16:10:14.325 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-10-29 16:10:18.712 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6c1e0a5123a49a320042c967ccfdf6b8
+2026-10-29 16:10:18.714 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.48
+2026-10-29 16:10:18.715 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-29 16:10:18.716 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-10-29 16:10:18.735 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-29 16:10:18.827 DEBUG testcase.TC_01 create event              - 2: navigateToUrl("https://app.msxpo.sa/login")
+2026-10-29 16:10:19.970 DEBUG testcase.TC_01 create event              - 3: maximizeWindow()
+2026-10-29 16:10:20.234 DEBUG testcase.TC_01 create event              - 4: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your email"), email_address)
+2026-10-29 16:10:21.822 DEBUG testcase.TC_01 create event              - 5: setText(findTestObject("Page_MSxpo - Admin Panel/input_Enter your password"), password)
+2026-10-29 16:10:22.539 DEBUG testcase.TC_01 create event              - 6: click(findTestObject("Page_MSxpo - Admin Panel/button_Sign In"))
+2026-10-29 16:10:23.530 DEBUG testcase.TC_01 create event              - 7: click(findTestObject("Page_MSxpo - Admin Panel/span_Events"))
+2026-10-29 16:10:24.537 DEBUG testcase.TC_01 create event              - 8: click(findTestObject("Page_MSxpo - Admin Panel/span_Create Event"))
+2026-10-29 16:10:25.696 DEBUG testcase.TC_01 create event              - 9: setText(findTestObject("Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026"), event_name)
+2026-10-29 16:10:26.195 DEBUG testcase.TC_01 create event              - 10: eventTypeTrigger = findTestObject("Manage event/event_type_trigger")
+2026-10-29 16:10:26.209 DEBUG testcase.TC_01 create event              - 11: if (!(verifyElementPresent(eventTypeTrigger, 5, OPTIONAL)))
+2026-10-29 16:10:26.290 DEBUG testcase.TC_01 create event              - 12: click(eventTypeTrigger)
+2026-10-29 16:10:26.448 DEBUG testcase.TC_01 create event              - 13: eventTypeOption = findTestObject("Manage event/event_type_option", ["event_type":event_type])
+2026-10-29 16:10:26.473 DEBUG testcase.TC_01 create event              - 14: waitForElementVisible(eventTypeOption, 5)
+2026-10-29 16:10:27.365 DEBUG testcase.TC_01 create event              - 15: click(eventTypeOption)
+2026-10-29 16:10:27.468 DEBUG testcase.TC_01 create event              - 16: delay(0.5)
+2026-10-29 16:10:28.020 DEBUG testcase.TC_01 create event              - 17: click(findTestObject("Page_MSxpo - Admin Panel/span_Select start date", [end_date:""]))
+2026-10-29 16:10:28.213 DEBUG testcase.TC_01 create event              - 18: startDayCell = findTestObject("Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026")
+2026-10-29 16:10:28.220 DEBUG testcase.TC_01 create event              - 19: waitForElementPresent(startDayCell, 10)
+2026-10-29 16:10:28.255 DEBUG testcase.TC_01 create event              - 20: click(startDayCell)
+2026-10-29 16:10:28.402 DEBUG testcase.TC_01 create event              - 21: click(findTestObject("Page_MSxpo - Admin Panel/span_Select end date"))
+2026-10-29 16:10:28.558 DEBUG testcase.TC_01 create event              - 22: endDayCell = findTestObject("Page_MSxpo - Admin Panel/button_Saturday, October 31st, 2026")
+2026-10-29 16:10:28.572 DEBUG testcase.TC_01 create event              - 23: waitForElementPresent(endDayCell, 10)
+2026-10-29 16:10:28.595 DEBUG testcase.TC_01 create event              - 24: click(endDayCell)
+2026-10-29 16:10:28.746 DEBUG testcase.TC_01 create event              - 25: setText(findTestObject("Page_MSxpo - Admin Panel/textarea_Brief event overview"), description)
+2026-10-29 16:10:29.616 DEBUG testcase.TC_01 create event              - 26: click(findTestObject("Page_MSxpo - Admin Panel/button_Continue"))
+2026-10-29 16:10:29.803 DEBUG testcase.TC_01 create event              - 27: click(findTestObject("Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-3 w-3"))
+2026-10-29 16:10:29.991 DEBUG testcase.TC_01 create event              - 28: adminFullName = findTestObject("Page_MSxpo - Admin Panel/input_Full name")
+2026-10-29 16:10:30.008 DEBUG testcase.TC_01 create event              - 29: waitForElementPresent(adminFullName, 15)
+2026-10-29 16:10:30.056 DEBUG testcase.TC_01 create event              - 30: setText(adminFullName, event_admin_name)
+2026-10-29 16:10:30.609 DEBUG testcase.TC_01 create event              - 31: addNewAdmin = findTestObject("Page_MSxpo - Admin Panel/svg_tabler-icon tabler-icon-plus h-4 w-4 text-")
+2026-10-29 16:10:30.631 DEBUG testcase.TC_01 create event              - 32: waitForElementPresent(addNewAdmin, 10)
+2026-10-29 16:10:30.674 DEBUG testcase.TC_01 create event              - 33: click(addNewAdmin)
+2026-10-29 16:10:30.825 DEBUG testcase.TC_01 create event              - 34: delay(0.5)
+2026-10-29 16:10:31.347 DEBUG testcase.TC_01 create event              - 35: adminPhone = findTestObject("Page_MSxpo - Admin Panel/input_500 000 000")
+2026-10-29 16:10:31.358 DEBUG testcase.TC_01 create event              - 36: waitForElementPresent(adminPhone, 10)
+2026-10-29 16:10:31.384 DEBUG testcase.TC_01 create event              - 37: setText(adminPhone, phone_number)
+2026-10-29 16:10:31.689 DEBUG testcase.TC_01 create event              - 38: adminEmail = findTestObject("Page_MSxpo - Admin Panel/input_Email address")
+2026-10-29 16:10:31.702 DEBUG testcase.TC_01 create event              - 39: waitForElementPresent(adminEmail, 10)
+2026-10-29 16:10:31.734 DEBUG testcase.TC_01 create event              - 40: setText(adminEmail, admin_email_address)
+2026-10-29 16:10:32.068 DEBUG testcase.TC_01 create event              - 41: click(findTestObject("Page_MSxpo - Admin Panel/button_Continue_1"))
+2026-10-29 16:10:32.293 DEBUG testcase.TC_01 create event              - 42: questionnaireContinue = findTestObject("Page_MSxpo - Admin Panel/button_Continue_2")
+2026-10-29 16:10:32.306 DEBUG testcase.TC_01 create event              - 43: waitForElementPresent(questionnaireContinue, 15)
+2026-10-29 16:10:32.338 DEBUG testcase.TC_01 create event              - 44: click(questionnaireContinue)
+2026-10-29 16:10:32.555 DEBUG testcase.TC_01 create event              - 45: skipFloorPlanner = findTestObject("Page_MSxpo - Admin Panel/button_Skip Floor Planner")
+2026-10-29 16:10:32.567 DEBUG testcase.TC_01 create event              - 46: waitForElementPresent(skipFloorPlanner, 15)
+2026-10-29 16:10:32.592 DEBUG testcase.TC_01 create event              - 47: click(skipFloorPlanner)
+2026-10-29 16:10:32.759 DEBUG testcase.TC_01 create event              - 48: saveAsDraft = findTestObject("Page_MSxpo - Admin Panel/button_Save as Draft")
+2026-10-29 16:10:32.773 DEBUG testcase.TC_01 create event              - 49: waitForElementPresent(saveAsDraft, 15)
+2026-10-29 16:10:32.806 DEBUG testcase.TC_01 create event              - 50: click(saveAsDraft)
+2026-10-29 16:10:32.987 DEBUG testcase.TC_01 create event              - 51: savedEventTitle = findTestObject("Page_MSxpo - Admin Panel/h1_Test 2.0")
+2026-10-29 16:10:33.001 DEBUG testcase.TC_01 create event              - 52: waitForElementPresent(savedEventTitle, 10, OPTIONAL)
+2026-10-29 16:10:33.026 DEBUG testcase.TC_01 create event              - 53: click(savedEventTitle, OPTIONAL)
+2026-10-29 16:10:33.163 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Manage event/TC_01 create event
+2026-10-29 16:10:33.825 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-10-29 16:10:33.825 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Manage event/TC_01 create event
+2026-10-29 16:10:33.825 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_02 Login" time="0.245" tests="1" passed="0" failures="0" errors="1" incompleted="0" skipped="0">
+   <testsuite name="TC_02 Login" tests="1" passed="0" failures="0" errors="1" incompleted="0" skipped="0" time="0.245" timestamp="2026-10-29T13:11:08.996Z" hostname="admin - LAPTOP-46U4UC34" id="Test Suites/Manage Login/TC_02 Login" status="ERROR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_184104\\Manage Login\\TC_02 Login\\20261029_184104"/>
+         <property name="logFiles" value="C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_184104\\Manage Login\\TC_02 Login\\20261029_184104\\console0.log, C:\\Users\\admin\\Desktop\\growtech\\Masar 1\\MSXPO\\Reports\\20261029_184104\\Manage Login\\TC_02 Login\\20261029_184104\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - LAPTOP-46U4UC34"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.7.0"/>
+         <property name="userFullName" value="aarti oza"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="projectName" value="MSXPO"/>
+         <property name="executionPlanRevision" value="{&quot;testCaseId&quot;:&quot;Test Cases/Manage Login/TC_02 Login&quot;,&quot;plannedEntryId&quot;:&quot;874ba567-902d-4d74-8c8e-4ad45cb54fff&quot;,&quot;iterationIds&quot;:[&quot;874ba567-902d-4d74-8c8e-4ad45cb54fff&quot;],&quot;boundVariableNames&quot;:[&quot;email_address&quot;,&quot;password&quot;,&quot;role&quot;],&quot;iterationLabels&quot;:[&quot;&quot;]}"/>
+      </properties>
+      <testcase name="Test Cases/Manage Login/TC_02 Login" time="0.045" classname="Test Cases/Manage Login/TC_02 Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Manage Login/TC_02 Login has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script18419988099600.groovy: 33: Modifiers or return type is required @ line 33, column 1.&#xa;   var(role = WebUI.getText(findTestObject('Page_MSxpo - Admin Panel/p_Event Host')))&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[29-10-2026T18:41:09 - [TEST_CASE][ERROR] - Test Cases/Manage Login/TC_02 Login: Test Cases/Manage Login/TC_02 Login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script18419988099600.groovy: 33: Modifiers or return type is required @ line 33, column 1.
+   var(role = WebUI.getText(findTestObject('Page_MSxpo - Admin Panel/p_Event Host')))
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[29-10-2026T18:41:09 - [TEST_CASE][ERROR] - Test Cases/Manage Login/TC_02 Login: Test Cases/Manage Login/TC_02 Login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script18419988099600.groovy: 33: Modifiers or return type is required @ line 33, column 1.
+   var(role = WebUI.getText(findTestObject('Page_MSxpo - Admin Panel/p_Event Host')))
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-10-2026T18:41:08 - [TEST_SUITE][ERROR] - TC_02 Login: null]]></system-out>
+      <system-err><![CDATA[29-10-2026T18:41:08 - [TEST_SUITE][ERROR] - TC_02 Login: null]]></system-err>
+   </testsuite>
+</testsuites>

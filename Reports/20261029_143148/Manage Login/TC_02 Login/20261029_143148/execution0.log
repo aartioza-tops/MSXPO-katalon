@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-10-29T09:01:56.428844400Z</date>
+  <millis>1793264516428</millis>
+  <nanos>844400</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Manage Login/TC_02 Login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">TC_02 Login</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Manage Login/TC_02 Login</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.456199500Z</date>
+  <millis>1793264516456</millis>
+  <nanos>199500</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userFullName = aarti oza</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="userFullName">aarti oza</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.457531100Z</date>
+  <millis>1793264516457</millis>
+  <nanos>531100</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>projectName = MSXPO</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="projectName">MSXPO</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.458540900Z</date>
+  <millis>1793264516458</millis>
+  <nanos>540900</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = admin - LAPTOP-46U4UC34</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">admin - LAPTOP-46U4UC34</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.458540900Z</date>
+  <millis>1793264516458</millis>
+  <nanos>540900</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.459547Z</date>
+  <millis>1793264516459</millis>
+  <nanos>547000</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.5</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.5</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.460547500Z</date>
+  <millis>1793264516460</millis>
+  <nanos>547500</nanos>
+  <sequence>6</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 11.7.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">11.7.0</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.592833400Z</date>
+  <millis>1793264516592</millis>
+  <nanos>833400</nanos>
+  <sequence>10</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>executionPlanRevision = {&amp;quot;testCaseId&amp;quot;:&amp;quot;Test Cases/Manage Login/TC_02 Login&amp;quot;,&amp;quot;plannedEntryId&amp;quot;:&amp;quot;ea1315e4-dba9-42e8-aaca-08644b5051e2&amp;quot;,&amp;quot;iterationIds&amp;quot;:[&amp;quot;ea1315e4-dba9-42e8-aaca-08644b5051e2&amp;quot;],&amp;quot;boundVariableNames&amp;quot;:[&amp;quot;email_address&amp;quot;,&amp;quot;password&amp;quot;,&amp;quot;role&amp;quot;],&amp;quot;iterationLabels&amp;quot;:[&amp;quot;&amp;quot;]}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionPlanRevision">{&quot;testCaseId&quot;:&quot;Test Cases/Manage Login/TC_02 Login&quot;,&quot;plannedEntryId&quot;:&quot;ea1315e4-dba9-42e8-aaca-08644b5051e2&quot;,&quot;iterationIds&quot;:[&quot;ea1315e4-dba9-42e8-aaca-08644b5051e2&quot;],&quot;boundVariableNames&quot;:[&quot;email_address&quot;,&quot;password&quot;,&quot;role&quot;],&quot;iterationLabels&quot;:[&quot;&quot;]}</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.691906400Z</date>
+  <millis>1793264516691</millis>
+  <nanos>906400</nanos>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Manage Login/TC_02 Login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Manage Login/TC_02 Login</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Manage Login/TC_02 Login</property>
+  <property name="source">C:\Users\admin\Desktop\growtech\Masar 1\MSXPO\Test Cases\Manage Login\TC_02 Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="uuid">ea1315e4-dba9-42e8-aaca-08644b5051e2</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.750496400Z</date>
+  <millis>1793264516750</millis>
+  <nanos>496400</nanos>
+  <sequence>13</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Manage Login/TC_02 Login has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script3467481888600.groovy: 33: Modifiers or return type is required @ line 33, column 1.
+   var(role = WebUI.getText(findTestObject(&amp;apos;Page_MSxpo - Admin Panel/p_Event Host&amp;apos;)))
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script3467481888600.groovy: 33: Modifiers or return type is required @ line 33, column 1.
+   var(role = WebUI.getText(findTestObject(&apos;Page_MSxpo - Admin Panel/p_Event Host&apos;)))
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4239)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4196)
+	at org.apache.groovy.parser.antlr4.AstBuilder.validateMethodDeclaration(AstBuilder.java:1340)
+	at org.apache.groovy.parser.antlr4.AstBuilder.visitMethodDeclaration(AstBuilder.java:1330)
+	at org.apache.groovy.parser.antlr4.AstBuilder.visitMethodDeclaration(AstBuilder.java:157)
+	at org.apache.groovy.parser.antlr4.GroovyParser$MethodDeclarationContext.accept(GroovyParser.java:2225)
+	at groovyjarjarantlr4.v4.runtime.tree.AbstractParseTreeVisitor.visitChildren(AbstractParseTreeVisitor.java:48)
+	at org.apache.groovy.parser.antlr4.GroovyParserBaseVisitor.visitScriptStatement(GroovyParserBaseVisitor.java:466)
+	at org.apache.groovy.parser.antlr4.GroovyParser$ScriptStatementContext.accept(GroovyParser.java:471)
+	at groovyjarjarantlr4.v4.runtime.tree.AbstractParseTreeVisitor.visit(AbstractParseTreeVisitor.java:20)
+	at org.apache.groovy.parser.antlr4.AstBuilder.visit(AstBuilder.java:3920)
+	at org.apache.groovy.parser.antlr4.AstBuilder.lambda$visitScriptStatements$0(AstBuilder.java:302)
+	at org.apache.groovy.parser.antlr4.AstBuilder.visitScriptStatements(AstBuilder.java:303)
+	at org.apache.groovy.parser.antlr4.AstBuilder.visitCompilationUnit(AstBuilder.java:260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.visitCompilationUnit(AstBuilder.java:157)
+	at org.apache.groovy.parser.antlr4.GroovyParser$CompilationUnitContext.accept(GroovyParser.java:317)
+	at groovyjarjarantlr4.v4.runtime.tree.AbstractParseTreeVisitor.visit(AbstractParseTreeVisitor.java:20)
+	at org.apache.groovy.parser.antlr4.AstBuilder.visit(AstBuilder.java:3920)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1029_3.run(S1029_3.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script3467481888600.groovy: 33: Modifiers or return type is required @ line 33, column 1.
+   var(role = WebUI.getText(findTestObject(&apos;Page_MSxpo - Admin Panel/p_Event Host&apos;)))
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.760037300Z</date>
+  <millis>1793264516760</millis>
+  <nanos>37300</nanos>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Manage Login/TC_02 Login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-29T09:01:56.829160600Z</date>
+  <millis>1793264516829</millis>
+  <nanos>160600</nanos>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Manage Login/TC_02 Login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

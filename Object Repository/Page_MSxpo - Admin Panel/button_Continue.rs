@@ -10,12 +10,12 @@
          <value>.text-primary-foreground</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ece73833-b4c5-4e37-8901-48db95a05783</webElementGuid>
+      <webElementGuid>b30fc6cb-00ae-4680-b364-3b1c0a0bb9ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 w-full rounded-lg bg-[#0091EA] hover:bg-[#0071B8] sm:w-auto</value>
-      <webElementGuid>1e1626cf-fc6c-4455-9785-95a3c546dbd1</webElementGuid>
+      <webElementGuid>6b77ec7c-58d5-4b2a-85e2-0150b7c61a8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ae76feb0-c545-4364-8bc6-66c00e585b8a</webElementGuid>
+      <webElementGuid>88067dfa-5de0-4333-ad95-25af7cd36934</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>9df525d8-552d-4333-b2ea-a5b23cb50452</webElementGuid>
+      <webElementGuid>a4097ec1-fdc4-4462-b98f-86856110b78d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-e995de3e9a64031b2440b973d08cc35b</value>
-      <webElementGuid>b6a50daf-977d-45c1-a29f-178da829d0b9</webElementGuid>
+      <webElementGuid>9c90a8e8-311e-4d50-941d-132f9c137541</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
-      <webElementGuid>d72c4de8-f0c2-4039-9601-3191e1d58176</webElementGuid>
+      <webElementGuid>9ed4e759-f797-4913-a072-dc0edc868f77</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
-      <webElementGuid>b42a8271-4e8d-4a3b-9309-b7090fb09c09</webElementGuid>
+      <webElementGuid>bdacf99f-1e38-40ac-b8c2-c127aca20ab3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>86a00f9a-895e-462e-a998-c12382ea67ee</webElementGuid>
+      <webElementGuid>5d0fc5b3-df92-4496-98b6-c07792180380</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex-row ')]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'BackContinue' or . = 'BackContinue')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>581629e8-94d3-45c4-892f-037de84be5c0</webElementGuid>
+      <webElementGuid>10311d8d-66d3-43a5-ab08-b2bdead08cda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mt-6 flex flex-col gap-3 border-t border-slate-200 pt-4 sm:flex-row sm:items-center sm:justify-between</value>
-      <webElementGuid>538901b4-a88a-4fd2-aede-b26ee46fbe3b</webElementGuid>
+      <webElementGuid>de2b9425-83b1-4e33-8b15-7ea9aaa78101</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>BackContinue</value>
-      <webElementGuid>21286b3a-52c0-4291-ae5c-9d4529c57902</webElementGuid>
+      <webElementGuid>1e082dea-de99-4285-be26-a10a282e59ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-e11bb160b745717c2800617d3679579d</value>
-      <webElementGuid>51d4f2bb-7154-4150-a3f7-6934c0366497</webElementGuid>
+      <webElementGuid>17adf1c9-a228-4dbe-acc6-0cf09b5d8213</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex-row ')]</value>
-      <webElementGuid>85780553-8d3e-4053-8d3f-cf7cceff7310</webElementGuid>
+      <webElementGuid>e222de06-92de-410a-a003-c442fd1a5fd2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex-row ')]</value>
-      <webElementGuid>53da83e6-d37e-45f2-849e-72b67ee44abe</webElementGuid>
+      <webElementGuid>58be45c6-f64a-4582-a42b-04bd776e4428</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'BackContinue' or . = 'BackContinue')]</value>
-      <webElementGuid>4d60a5a7-d03c-45fb-8ac6-0cbcc7c287e3</webElementGuid>
+      <webElementGuid>48cc70a2-112a-4d69-87fe-b6ffbbe6eb0c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

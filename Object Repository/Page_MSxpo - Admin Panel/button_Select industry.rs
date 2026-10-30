@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//*[@data-placeholder = '']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Select industry' or . = 'Select industry')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d455eb6c-1813-4d1e-a453-fab750c2cf51</webElementGuid>
+      <webElementGuid>ed8a5685-254a-46b7-8f63-b6ffde44c059</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>be106ce7-d113-469b-9cb5-4a74957f9eb1</webElementGuid>
+      <webElementGuid>fd458d6c-4a7b-4f85-aa7d-37c5f2136694</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>523624ef-9ba6-416f-a855-09680b44844e</webElementGuid>
+      <webElementGuid>1bf46dac-0849-4750-b987-addf7d6027bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
-      <value>radix-_r_18_</value>
-      <webElementGuid>302886f3-7a54-4073-9f0a-33d594aa8183</webElementGuid>
+      <value>radix-_r_46_</value>
+      <webElementGuid>36dd8053-427f-47fd-a523-fc4924382a30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>034b62ed-b462-4b6e-9ccc-919f44aa5a0e</webElementGuid>
+      <webElementGuid>de8adf55-0cda-474d-b736-1b7b4aac503f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>f8d6cab4-28fe-431d-a135-6956b6e416df</webElementGuid>
+      <webElementGuid>4e8c613d-989a-4003-9404-dab0d1f3ffc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>dir</name>
       <type>Main</type>
       <value>ltr</value>
-      <webElementGuid>fcb7dbd0-3529-4dfb-82f9-29ffa98ffa4c</webElementGuid>
+      <webElementGuid>bae6a365-6b1a-4ce1-a4f3-25774af2be3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>data-state</name>
       <type>Main</type>
       <value>closed</value>
-      <webElementGuid>1c1e1a98-aeb6-48c4-b860-fb40112f4358</webElementGuid>
+      <webElementGuid>7897621a-eba3-4697-a0fd-3e057eb0e206</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;>span]:line-clamp-1 [&amp;>span]:text-start h-11 w-full</value>
-      <webElementGuid>24ba81fb-6503-4326-ba56-725d2409f74b</webElementGuid>
+      <webElementGuid>1f56b466-ca15-4ffc-a9d8-5d0e2525e0e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select industry</value>
-      <webElementGuid>3bd86adf-f723-4b5e-bd45-9098d41e570b</webElementGuid>
+      <webElementGuid>56ee48c2-b475-4ba3-b8b3-061465667314</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-e1cdbede652149a8cbb61119592cbada</value>
-      <webElementGuid>736675b4-a495-4d48-b806-918bd9e6e350</webElementGuid>
+      <webElementGuid>0af50d57-88fd-4cc2-80b4-cce81884543a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-placeholder = '']</value>
-      <webElementGuid>2fea4e3f-5d51-41fe-a600-e89d2d003efc</webElementGuid>
+      <webElementGuid>ba65470c-9546-4f1f-a8cd-d5087b48c713</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@data-placeholder = '']</value>
-      <webElementGuid>5817d1cd-f3cc-4956-a8ef-70283451fa17</webElementGuid>
+      <webElementGuid>e72d616e-f0ce-4a12-ba22-4625719d748a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Select industry' or . = 'Select industry')]</value>
-      <webElementGuid>87c58aaf-d0bd-4a3e-82b4-fa3a386b044c</webElementGuid>
+      <webElementGuid>97a15656-f1cc-4326-b916-3f822d4e7c75</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

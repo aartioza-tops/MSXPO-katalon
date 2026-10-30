@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>invite participant</name>
+   <name>TC_03 invite participant</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,61 +14,61 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>0f610e70-2c12-4428-8629-31784bf76bf0</testSuiteGuid>
    <testCaseLink>
-      <guid>dab0ba13-2990-4fb9-8d7f-36fce620aace</guid>
+      <guid>7684d801-9ef0-4568-bc22-f88219988e9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Manage participant/invite participant</testCaseId>
+      <testCaseId>Test Cases/Manage participant/TC_03 Invite participant</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>3f6f93b7-2daf-4229-bf96-e8277685a0a7</id>
+         <id>66f5bd7b-d95c-4b1a-a0ff-469796b240f3</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Manage participant/invite participant</testDataId>
+         <testDataId>Data Files/Manage participant/TC_03 invite participant</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>3f6f93b7-2daf-4229-bf96-e8277685a0a7</testDataLinkId>
+         <testDataLinkId>66f5bd7b-d95c-4b1a-a0ff-469796b240f3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email_address</value>
-         <variableId>de16da56-6816-4a0c-b209-2763200e802c</variableId>
+         <variableId>ec76535b-cc8f-439d-a7ee-d9fabf194a1b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3f6f93b7-2daf-4229-bf96-e8277685a0a7</testDataLinkId>
+         <testDataLinkId>66f5bd7b-d95c-4b1a-a0ff-469796b240f3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>abefb268-2e4f-46e6-a30e-3af58478dc4c</variableId>
+         <variableId>2a40f85f-da06-4537-952b-f8f80bc54930</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3f6f93b7-2daf-4229-bf96-e8277685a0a7</testDataLinkId>
+         <testDataLinkId>66f5bd7b-d95c-4b1a-a0ff-469796b240f3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>participant_name</value>
-         <variableId>194bc276-7d2d-4c07-8d2a-053502e54989</variableId>
+         <variableId>b1c857da-8093-4bbc-9319-7ac374491b2b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3f6f93b7-2daf-4229-bf96-e8277685a0a7</testDataLinkId>
+         <testDataLinkId>66f5bd7b-d95c-4b1a-a0ff-469796b240f3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>industry</value>
-         <variableId>06cbba24-6603-46f7-9814-ad09b0d9e4e8</variableId>
+         <variableId>77060801-3814-4619-8eae-9138e0f01b02</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3f6f93b7-2daf-4229-bf96-e8277685a0a7</testDataLinkId>
+         <testDataLinkId>66f5bd7b-d95c-4b1a-a0ff-469796b240f3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>contact_name</value>
-         <variableId>5be0121e-98d9-47dd-8fc4-227c7047301f</variableId>
+         <variableId>95b11fe9-2939-4468-beea-3e2155fbfe2f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3f6f93b7-2daf-4229-bf96-e8277685a0a7</testDataLinkId>
+         <testDataLinkId>66f5bd7b-d95c-4b1a-a0ff-469796b240f3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>contact_email</value>
-         <variableId>83d2e975-ea01-47e8-8b89-ff992a9dc706</variableId>
+         <variableId>76d2d19e-f0e7-4bf0-9267-e66c3d0cdf72</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>3f6f93b7-2daf-4229-bf96-e8277685a0a7</testDataLinkId>
+         <testDataLinkId>66f5bd7b-d95c-4b1a-a0ff-469796b240f3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>contact_phone</value>
-         <variableId>65f4a0ad-b2c9-473d-8394-0707fcc0ca65</variableId>
+         <variableId>7e1fcb0d-5b26-4991-b5bc-d10884e9030d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//*[@href = '/exhibitors']//span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Participants' or . = 'Participants')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>6fa23808-9f16-4778-8c77-4c89574e5228</webElementGuid>
+      <webElementGuid>312ed30c-07e7-4516-8b1d-69eb57602f4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex-1</value>
-      <webElementGuid>693f1cd4-2e0a-41c5-abaf-093df13c409f</webElementGuid>
+      <webElementGuid>5df3c0f0-2cb9-48bb-bcd9-4e50e86dd617</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Participants</value>
-      <webElementGuid>93a0d61d-0053-4d4f-b34f-01f94d20efac</webElementGuid>
+      <webElementGuid>7823ffd6-1872-4aa6-9e95-22e1e8862cb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-e2c3e725111d05c60a320ef8a0c76228</value>
-      <webElementGuid>b7e70bd4-797f-4008-bc6c-3c0f0d3d47b4</webElementGuid>
+      <webElementGuid>bc00043e-0055-40b5-a75e-2bc3c2b5bfbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@href = '/exhibitors']//span</value>
-      <webElementGuid>fa7e2562-c47f-4499-bd56-655aec357899</webElementGuid>
+      <webElementGuid>56e2c259-358f-4658-bf2b-c3b2cfe819dd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@href = '/exhibitors']//span</value>
-      <webElementGuid>a14edb8b-2710-44fc-ae6b-f17f2deb90da</webElementGuid>
+      <webElementGuid>6f7d60d8-36a6-44e6-9ab3-7a0a32964416</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Participants' or . = 'Participants')]</value>
-      <webElementGuid>5d4e56b4-ebca-4925-8a32-0c6ea5b2e52c</webElementGuid>
+      <webElementGuid>56a461d7-da33-4f98-9116-f50ab6f1a6cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

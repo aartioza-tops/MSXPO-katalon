@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>invite participant</name>
+   <name>TC_03 Invite participant</name>
    <tag></tag>
    <integratedEntity>
       <productName>TESTOPS</productName>
@@ -27,95 +27,95 @@
    </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>dc4be5c4-675c-460b-aa3d-9c44bcfeb819</testCaseGuid>
+   <testCaseGuid>7350e077-ba8e-45ac-ac0c-6f3b59f7f868</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>de16da56-6816-4a0c-b209-2763200e802c</variableId>
+      <variableId>ec76535b-cc8f-439d-a7ee-d9fabf194a1b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>abefb268-2e4f-46e6-a30e-3af58478dc4c</variableId>
+      <variableId>2a40f85f-da06-4537-952b-f8f80bc54930</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>194bc276-7d2d-4c07-8d2a-053502e54989</variableId>
+      <variableId>b1c857da-8093-4bbc-9319-7ac374491b2b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>06cbba24-6603-46f7-9814-ad09b0d9e4e8</variableId>
+      <variableId>77060801-3814-4619-8eae-9138e0f01b02</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5be0121e-98d9-47dd-8fc4-227c7047301f</variableId>
+      <variableId>95b11fe9-2939-4468-beea-3e2155fbfe2f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>83d2e975-ea01-47e8-8b89-ff992a9dc706</variableId>
+      <variableId>76d2d19e-f0e7-4bf0-9267-e66c3d0cdf72</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>65f4a0ad-b2c9-473d-8394-0707fcc0ca65</variableId>
+      <variableId>7e1fcb0d-5b26-4991-b5bc-d10884e9030d</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>de16da56-6816-4a0c-b209-2763200e802c</id>
+      <id>ec76535b-cc8f-439d-a7ee-d9fabf194a1b</id>
       <masked>false</masked>
       <name>email_address</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>abefb268-2e4f-46e6-a30e-3af58478dc4c</id>
+      <id>2a40f85f-da06-4537-952b-f8f80bc54930</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>194bc276-7d2d-4c07-8d2a-053502e54989</id>
+      <id>b1c857da-8093-4bbc-9319-7ac374491b2b</id>
       <masked>false</masked>
       <name>participant_name</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>06cbba24-6603-46f7-9814-ad09b0d9e4e8</id>
+      <id>77060801-3814-4619-8eae-9138e0f01b02</id>
       <masked>false</masked>
       <name>industry</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>5be0121e-98d9-47dd-8fc4-227c7047301f</id>
+      <id>95b11fe9-2939-4468-beea-3e2155fbfe2f</id>
       <masked>false</masked>
       <name>contact_name</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>83d2e975-ea01-47e8-8b89-ff992a9dc706</id>
+      <id>76d2d19e-f0e7-4bf0-9267-e66c3d0cdf72</id>
       <masked>false</masked>
       <name>contact_email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>65f4a0ad-b2c9-473d-8394-0707fcc0ca65</id>
+      <id>7e1fcb0d-5b26-4991-b5bc-d10884e9030d</id>
       <masked>false</masked>
       <name>contact_phone</name>
    </variable>

@@ -7,11 +7,15 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.overflow-x-auto.w-full</value>
+         <value>.overflow-x-auto.relative</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' overflow-x-auto ') and contains(concat(' ', normalize-space(@class), ' '), ' w-full ')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' overflow-x-auto ') and contains(concat(' ', normalize-space(@class), ' '), ' relative ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '#Contact Person *Contact Email *Role *Contact Phone *1Contact Person*Contact Email*Participant AdminParticipant AdminParticipant Staff ViewParticipant Staff ChatContact Phone*🇸🇦+966' or . = '#Contact Person *Contact Email *Role *Contact Phone *1Contact Person*Contact Email*Participant AdminParticipant AdminParticipant Staff ViewParticipant Staff ChatContact Phone*🇸🇦+966')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>6c7db2c1-998d-4808-851e-8c071ea2147f</webElementGuid>
+      <webElementGuid>455c2c8b-c1cd-4473-8019-147405b583e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>relative w-full overflow-x-auto</value>
-      <webElementGuid>57719d44-e6e3-4604-8621-b9edc23f6622</webElementGuid>
+      <webElementGuid>22ce2a79-13d1-44fa-809f-1c9535c5c2a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,31 +49,31 @@
       <name>text</name>
       <type>Main</type>
       <value>#Contact Person *Contact Email *Role *Contact Phone *1Contact Person*Contact Email*Participant AdminParticipant AdminParticipant Staff ViewParticipant Staff ChatContact Phone*🇸🇦+966</value>
-      <webElementGuid>435dcce1-49cf-429e-9501-d3970be2bc68</webElementGuid>
+      <webElementGuid>ec2d5c40-5c88-4893-8d92-425ad123abeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-b5040b4d1218ec6fac828151ce588912</value>
-      <webElementGuid>bc4988dc-9ee1-4b9f-b71e-bd93420cda1b</webElementGuid>
+      <value>md5.v1-531e70d9d72130c4f51d19a6d50667fd</value>
+      <webElementGuid>73335f59-190e-41cf-8897-0a1981993cbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' overflow-x-auto ') and contains(concat(' ', normalize-space(@class), ' '), ' w-full ')]</value>
-      <webElementGuid>01f92bf7-4169-4804-b031-f656950c49b6</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' overflow-x-auto ') and contains(concat(' ', normalize-space(@class), ' '), ' relative ')]</value>
+      <webElementGuid>0f96e5f6-1750-440e-82c9-498e16a33693</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' overflow-x-auto ') and contains(concat(' ', normalize-space(@class), ' '), ' w-full ')]</value>
-      <webElementGuid>889da812-d45f-4201-b2d9-9d9509438112</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' overflow-x-auto ') and contains(concat(' ', normalize-space(@class), ' '), ' relative ')]</value>
+      <webElementGuid>028cfba2-3829-4a65-b1c9-b3704f806c97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +81,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '#Contact Person *Contact Email *Role *Contact Phone *1Contact Person*Contact Email*Participant AdminParticipant AdminParticipant Staff ViewParticipant Staff ChatContact Phone*🇸🇦+966' or . = '#Contact Person *Contact Email *Role *Contact Phone *1Contact Person*Contact Email*Participant AdminParticipant AdminParticipant Staff ViewParticipant Staff ChatContact Phone*🇸🇦+966')]</value>
-      <webElementGuid>d5b5ef20-954c-4778-9ff3-abe1ff7f50c6</webElementGuid>
+      <webElementGuid>e73c2362-f501-445e-bdda-bf3f9630e874</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' overflow-x-auto ') and contains(concat(' ', normalize-space(@class), ' '), ' w-full ')]</value>
+      <webElementGuid>889da812-d45f-4201-b2d9-9d9509438112</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

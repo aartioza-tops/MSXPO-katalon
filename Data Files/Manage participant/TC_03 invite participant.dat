@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>invite participant</name>
+   <name>TC_03 invite participant</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>

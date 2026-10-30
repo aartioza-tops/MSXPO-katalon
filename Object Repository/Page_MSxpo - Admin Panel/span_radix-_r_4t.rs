@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_radix-_r_4t</name>
+   <tag></tag>
+   <elementGuidId>801763bd-6b66-4030-9022-7d11cbbaca78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-labelledby=&quot;radix-_r_4t_&quot;] span:nth-child(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-labelledby = 'radix-_r_4t_']//*[(name() = 'span') and (position() = 2)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Manufacturing&quot;i >> internal:text=&quot;Manufacturing&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ee4b8f9f-65a5-4b71-854e-38a5cfa7c650</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radix-_r_4t_</value>
+      <webElementGuid>b3e583af-cf92-4ebf-b708-ab7c676d84e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manufacturing</value>
+      <webElementGuid>67d8f7a1-ce93-4628-b447-017f61d3c783</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-093a1498ecd15c4ceff4aec8ecb3848a</value>
+      <webElementGuid>619780e5-30e1-486b-9225-af22a09c81f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'radix-_r_4t_']//*[(name() = 'span') and (position() = 2)]</value>
+      <webElementGuid>ef537f75-10af-407c-91d7-48fa5c3c4620</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'radix-_r_4t_']//*[(name() = 'span') and (position() = 2)]</value>
+      <webElementGuid>165a032f-4eb7-4c47-9807-9bb8a5baa141</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'radix-_r_4t_' and (text() = 'Manufacturing' or . = 'Manufacturing')]</value>
+      <webElementGuid>33ddacc9-8b23-41fe-aefa-74a472126d33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

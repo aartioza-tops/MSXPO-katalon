@@ -10,12 +10,12 @@
          <value>.rounded-xl.bg-primary</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-primary ')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Sign In' or . = 'Sign In')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>eadf67e1-3fe5-4a30-9a58-bc3eaa9d5426</webElementGuid>
+      <webElementGuid>2f050e07-6741-40eb-befc-914b93513e33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 px-4 py-2 mt-6 h-12 w-full rounded-xl bg-primary text-base font-semibold text-white shadow-lg shadow-primary/25 transition-all hover:bg-primary/90 hover:shadow-xl hover:shadow-primary/30 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50</value>
-      <webElementGuid>8e29bb8d-1d52-4f44-a780-c8f693f47584</webElementGuid>
+      <webElementGuid>7aab65bb-ea11-41b8-93cd-3be77f2026ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>b502de20-d097-4db8-86ca-73f4f626ff48</webElementGuid>
+      <webElementGuid>9b8d727b-f4c5-4db9-8d80-bf417961fbc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In</value>
-      <webElementGuid>b52f4575-ee3d-4139-993e-bea6e0f68005</webElementGuid>
+      <webElementGuid>cceb7364-315f-42bf-8013-4944087b2c37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-246fd90a368548f2fc1ddb3583414f1f</value>
-      <webElementGuid>31a2e2b4-9938-4659-8bec-0f20e5f40237</webElementGuid>
+      <webElementGuid>8466e364-f2a7-4b61-a273-979e60fd9a65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-primary ')]</value>
-      <webElementGuid>0964e39d-6a23-48d1-8f20-2643007a3ef3</webElementGuid>
+      <webElementGuid>0bd36e5f-952c-45ae-b9cb-7d539debc153</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-primary ')]</value>
-      <webElementGuid>79f3a6dc-d75a-4b14-ba19-c20f5f54d4ec</webElementGuid>
+      <webElementGuid>7ce0fb9e-b1a6-495b-ac77-fe68ad342feb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>76955da3-6ee1-4443-b02d-52164dbb7b06</webElementGuid>
+      <webElementGuid>0092d806-7255-4aa7-aaf9-b36b7b4d052b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

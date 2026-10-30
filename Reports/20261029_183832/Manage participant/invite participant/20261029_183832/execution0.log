@@ -1127,4 +1127,19 @@ invite participant.run(invite participant:65)
   <escapedJava>false</escapedJava>
 </record>
 
-</log>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-10-30T04:34:20.332420900Z</date>
+  <millis>1793334860332</millis>
+  <nanos>420900</nanos>
+  <sequence>2433</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>385</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>

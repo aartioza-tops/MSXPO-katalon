@@ -1,0 +1,25 @@
+# Katalon Studio
+.settings/
+bin/
+Libs/
+Drivers/
+Plugins/
+Include/
+Reports/
+Checkpoints/
+Temp/
+Build/
+Console/
+
+# Eclipse/OS metadata
+.classpath
+.project
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log

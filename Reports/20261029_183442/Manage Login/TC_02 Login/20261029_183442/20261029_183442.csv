@@ -1,4 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TC_02 Login,,,,29-10-2026 18:34:48,29-10-2026 18:34:48,0.721s,ERROR
-,,,,,,,
-Test Cases/Manage Login/TC_02 Login,,,,29-10-2026 18:34:48,29-10-2026 18:34:48,0.136s,ERROR

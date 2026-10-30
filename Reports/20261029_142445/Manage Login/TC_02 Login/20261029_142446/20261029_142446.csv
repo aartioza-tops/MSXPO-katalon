@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TC_02 Login,Chrome 156.0.8078.48,,,29-10-2026 14:24:53,29-10-2026 14:25:11,18.502s,FAILED
-,,,,,,,
-Test Cases/Manage Login/TC_02 Login,Chrome 156.0.8078.48,,,29-10-2026 14:24:53,29-10-2026 14:25:11,17.712s,FAILED
-"DATA BINDING - {""password"":""Admin@123"",""email_address"":""aartioza2026+fgate@gmail.com"",""role"":""Event Host""}",,,,,,,
-openBrowser(null),Chrome 156.0.8078.48,,,29-10-2026 14:24:54,29-10-2026 14:25:00,6.677s,PASSED
-"switchToWindowTitle(""MSxpo - Admin Panel"")",Chrome 156.0.8078.48,,,29-10-2026 14:25:00,29-10-2026 14:25:11,10.413s,FAILED

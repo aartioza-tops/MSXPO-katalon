@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC_04 Assign booth</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>6193c95c-275d-421c-b5b8-46b2a65680f5</testSuiteGuid>
+   <testCaseLink>
+      <guid>36e4bd36-55ba-431f-9ab2-074bbe7f179e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Manage participant/TC_04 Assign booth</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>131350d2-064a-47b2-b18f-ac5ef4665018</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Manage participant/TC_04 Assign booth</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>131350d2-064a-47b2-b18f-ac5ef4665018</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email_address</value>
+         <variableId>9bbe0e0e-94e3-41b7-88cc-2851f6719399</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>131350d2-064a-47b2-b18f-ac5ef4665018</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>ccbab2ef-e501-4caf-9d13-a7965615fc06</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>131350d2-064a-47b2-b18f-ac5ef4665018</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ParticipantName</value>
+         <variableId>2991e530-2235-4378-a728-b23b98ad4f9c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>131350d2-064a-47b2-b18f-ac5ef4665018</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>booth_number</value>
+         <variableId>b8c2aee0-1e8a-4d75-adbf-96703c502423</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

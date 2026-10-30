@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_11basic2</name>
+   <tag></tag>
+   <elementGuidId>80110b96-d603-4673-aea8-c9eec569bb3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.border-b.cursor-pointer:nth-child(4) .rounded</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 4)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;11basic$2&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c443e9de-35f1-4af7-900d-397741c781a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-4 w-4 rounded border-slate-300 text-[#0091EA] focus:ring-[#0091EA]</value>
+      <webElementGuid>847b8a2c-7ba6-4fc2-ab14-970718151904</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>2a0a639c-e225-418e-af88-0124d7215bea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-775511eaad706a090d5693920bcc2ef0</value>
+      <webElementGuid>fcce8c81-5450-4a7f-8148-3478bda4a20c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 4)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded ')]</value>
+      <webElementGuid>c92643e2-359f-4788-bfc8-144d0e8e72c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' border-b ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 4)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded ')]</value>
+      <webElementGuid>7013dcd4-2c42-4b5f-a128-0f710c22bf99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>9efd466f-980b-46c3-a2e1-0f3bf65604ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Assigns a booth (booth_number from the data file) to a participant (ParticipantName from the data file) on msx-dev: Participants -> row -> Booth Requests -> Assign Booth -> tick booth -> Update -> verify persisted.</description>
+   <name>TC_04 Assign booth</name>
+   <tag>GenAI</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>aarti oza</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>aarti oza</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>82612376-c75e-48a3-a197-328bc5282f3a</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>82612376-c75e-48a3-a197-328bc5282f3a</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>062c55be-202a-41fe-9032-f88a22b23aac</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9bbe0e0e-94e3-41b7-88cc-2851f6719399</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ccbab2ef-e501-4caf-9d13-a7965615fc06</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2991e530-2235-4378-a728-b23b98ad4f9c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8c2aee0-1e8a-4d75-adbf-96703c502423</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Admin login email (data file column email_address)</description>
+      <id>9bbe0e0e-94e3-41b7-88cc-2851f6719399</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Admin login password (data file column password)</description>
+      <id>ccbab2ef-e501-4caf-9d13-a7965615fc06</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Participant to assign the booth to (data file column ParticipantName)</description>
+      <id>2991e530-2235-4378-a728-b23b98ad4f9c</id>
+      <masked>false</masked>
+      <name>ParticipantName</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description>Booth number to assign (data file column booth_number). Must be free or already held by this participant, otherwise the app disables the checkbox.</description>
+      <id>b8c2aee0-1e8a-4d75-adbf-96703c502423</id>
+      <masked>false</masked>
+      <name>booth_number</name>
+   </variable>
+</TestCaseEntity>

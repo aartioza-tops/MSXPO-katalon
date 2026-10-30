@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>312ed30c-07e7-4516-8b1d-69eb57602f4f</webElementGuid>
+      <webElementGuid>cc6bed39-0fb7-4d33-8206-88eb1bfefa75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex-1</value>
-      <webElementGuid>5df3c0f0-2cb9-48bb-bcd9-4e50e86dd617</webElementGuid>
+      <webElementGuid>31c9bf71-c503-46da-b431-94a41f091e68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Participants</value>
-      <webElementGuid>7823ffd6-1872-4aa6-9e95-22e1e8862cb5</webElementGuid>
+      <webElementGuid>f62530c0-eb27-4fa3-b01b-2c0a795dbb8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-e2c3e725111d05c60a320ef8a0c76228</value>
-      <webElementGuid>bc00043e-0055-40b5-a75e-2bc3c2b5bfbc</webElementGuid>
+      <webElementGuid>2ec32bab-1911-4a96-8349-0f45cfdfa0cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@href = '/exhibitors']//span</value>
-      <webElementGuid>56e2c259-358f-4658-bf2b-c3b2cfe819dd</webElementGuid>
+      <webElementGuid>47c449f1-7e2e-4e47-9916-2597ed861348</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@href = '/exhibitors']//span</value>
-      <webElementGuid>6f7d60d8-36a6-44e6-9ab3-7a0a32964416</webElementGuid>
+      <webElementGuid>47070c35-0051-426a-995e-b4921c336dd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Participants' or . = 'Participants')]</value>
-      <webElementGuid>56a461d7-da33-4f98-9116-f50ab6f1a6cd</webElementGuid>
+      <webElementGuid>9442e2ae-5f8b-4523-b597-b5b0c90a4754</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

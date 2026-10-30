@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_radix-_r_k</name>
+   <tag></tag>
+   <elementGuidId>f41082da-540d-4186-a4c6-386cfed2b088</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'radix-_r_k_']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#radix-_r_k_</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Franchise gateway&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b72ace8b-e2be-47ef-8c73-c98bc85cc60d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radix-_r_k_</value>
+      <webElementGuid>06b029c0-ea08-485f-a514-1b5267ad8a9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Franchise gateway</value>
+      <webElementGuid>36db7c13-89c2-410b-bc7b-619ed8eaa3f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1cfc6ec7ccde2dff1c2cc46ab014b6d3</value>
+      <webElementGuid>60d88747-b3be-4b56-95be-060f721804a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'radix-_r_k_']</value>
+      <webElementGuid>78e592ce-1058-4746-8ce0-01299df76b04</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'radix-_r_k_']</value>
+      <webElementGuid>90c18f50-3e23-4d9e-99f0-7aa4e2db5b98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'radix-_r_k_' and (text() = 'Franchise gateway' or . = 'Franchise gateway')]</value>
+      <webElementGuid>30812a30-a9a8-4ff5-8f40-591fcba37f88</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

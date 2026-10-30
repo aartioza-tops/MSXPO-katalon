@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_radix-_r_2a</name>
+   <tag></tag>
+   <elementGuidId>fbf891ec-6144-4fac-87d8-5d70708134eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-labelledby = 'radix-_r_2a_']//*[(name() = 'span') and (position() = 2)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-labelledby=&quot;radix-_r_2a_&quot;] span:nth-child(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Retail&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0ba0a4e2-dde3-4dc1-8280-0f946a9a82bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radix-_r_2a_</value>
+      <webElementGuid>531a412b-d786-4d4d-a62e-b0040f401955</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Retail</value>
+      <webElementGuid>abb13555-ac84-4289-a7e6-caa47dbe5195</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9e72fb3ca9d6cac436a4c1743d24a2dc</value>
+      <webElementGuid>2b7da73b-7b83-4308-b3c0-94f04a624206</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'radix-_r_2a_']//*[(name() = 'span') and (position() = 2)]</value>
+      <webElementGuid>347e5d98-c6fa-46b8-8a41-1e675cb46c41</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'radix-_r_2a_']//*[(name() = 'span') and (position() = 2)]</value>
+      <webElementGuid>f3b08cad-961c-42b1-ad78-62b1b14d2191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'radix-_r_2a_' and (text() = 'Retail' or . = 'Retail')]</value>
+      <webElementGuid>22453aee-c61c-4748-a6a3-dadcc3bd567a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

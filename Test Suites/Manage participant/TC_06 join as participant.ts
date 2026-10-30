@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC_06 join as participant</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>5672ae44-d091-4cd5-9e83-d19a01e2f30d</testSuiteGuid>
+   <testCaseLink>
+      <guid>02c4f326-159b-49bb-aebd-8aa25e5885b0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Manage participant/TC_06 join as participant</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e2958959-28c3-4828-ab5b-d990eb8d9b51</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Manage participant/TC_06 join as participant</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e2958959-28c3-4828-ab5b-d990eb8d9b51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>event_host</value>
+         <variableId>abfa44ac-6fb5-4ff6-897b-f814127890b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2958959-28c3-4828-ab5b-d990eb8d9b51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>event_name</value>
+         <variableId>834ab804-5ce6-4288-97c7-b584870c76b6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2958959-28c3-4828-ab5b-d990eb8d9b51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>participant_name</value>
+         <variableId>007ac07d-4e58-4cea-b1c3-aa5ffdf39097</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2958959-28c3-4828-ab5b-d990eb8d9b51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>participant_email</value>
+         <variableId>30beceb1-79ae-41e0-bfe3-e3a0f180145d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2958959-28c3-4828-ab5b-d990eb8d9b51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>phone</value>
+         <variableId>d1499089-ca96-47b3-9a0b-e2e5785a4606</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2958959-28c3-4828-ab5b-d990eb8d9b51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>company_name</value>
+         <variableId>85bbf298-95be-417e-b90d-7dc6ac79b78b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2958959-28c3-4828-ab5b-d990eb8d9b51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>industry</value>
+         <variableId>45c9e89d-dd66-4dab-b599-51ca471aa98c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

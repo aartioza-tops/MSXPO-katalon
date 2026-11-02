@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Approves or rejects a Pending participant (from data file TC_07 approve_reject participant): row-scoped Approve/Reject click for the given participant_name only, dialog confirmation verified, then verifies the participant left Pending.</description>
+   <name>TC_07 approve participant</name>
+   <tag>GenAI</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>aarti oza</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>aarti oza</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>82612376-c75e-48a3-a197-328bc5282f3a</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>82612376-c75e-48a3-a197-328bc5282f3a</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aaa48ca7-cd01-4c58-9d78-901e65adb151</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>f1111cdd-d787-4860-ac79-3fe9ca8157c0</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Manage participant/TC_07 approve_reject participant</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>f1111cdd-d787-4860-ac79-3fe9ca8157c0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email_address</value>
+      <variableId>84bec49e-a1a7-41be-a1f9-6e02cdd1c84c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f1111cdd-d787-4860-ac79-3fe9ca8157c0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>8ddd4632-06df-4d0e-9a0a-c674dc30e0c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f1111cdd-d787-4860-ac79-3fe9ca8157c0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>participant_name</value>
+      <variableId>8aa47255-e4b2-4085-8c46-b3459a548695</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f1111cdd-d787-4860-ac79-3fe9ca8157c0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>approve_reject</value>
+      <variableId>7325e24e-3ddd-4c86-8de4-9b077260bf6c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Admin login email (data file column email_address)</description>
+      <id>84bec49e-a1a7-41be-a1f9-6e02cdd1c84c</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Admin login password (data file column password)</description>
+      <id>8ddd4632-06df-4d0e-9a0a-c674dc30e0c8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Participant to approve/reject (data file column participant_name). Must be Pending.</description>
+      <id>8aa47255-e4b2-4085-8c46-b3459a548695</id>
+      <masked>false</masked>
+      <name>participant_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'approve'</defaultValue>
+      <description>Decision: 'approve' or 'reject' (data file column approve_reject)</description>
+      <id>7325e24e-3ddd-4c86-8de4-9b077260bf6c</id>
+      <masked>false</masked>
+      <name>approve_reject</name>
+   </variable>
+</TestCaseEntity>

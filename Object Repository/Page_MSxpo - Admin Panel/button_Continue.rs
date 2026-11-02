@@ -6,16 +6,16 @@
    <elementGuidId>01344cc8-3580-404d-97e8-17d8648d2f7d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>.text-primary-foreground</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.text-primary-foreground</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b30fc6cb-00ae-4680-b364-3b1c0a0bb9ce</webElementGuid>
+      <webElementGuid>f514d45a-2132-4e12-9148-6a5df0daae9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 w-full rounded-lg bg-[#0091EA] hover:bg-[#0071B8] sm:w-auto</value>
-      <webElementGuid>6b77ec7c-58d5-4b2a-85e2-0150b7c61a8b</webElementGuid>
+      <webElementGuid>ce09d891-9a50-477b-bb07-01bc70373db8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>88067dfa-5de0-4333-ad95-25af7cd36934</webElementGuid>
+      <webElementGuid>fedd7616-d700-4275-8c00-78b22bf62bd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>a4097ec1-fdc4-4462-b98f-86856110b78d</webElementGuid>
+      <webElementGuid>7e03bb56-6852-451b-aad2-59e2ee74bb00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-e995de3e9a64031b2440b973d08cc35b</value>
-      <webElementGuid>9c90a8e8-311e-4d50-941d-132f9c137541</webElementGuid>
+      <webElementGuid>9d3171be-e158-4ca2-93c5-4168d76ca2ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
-      <webElementGuid>9ed4e759-f797-4913-a072-dc0edc868f77</webElementGuid>
+      <webElementGuid>0cfa7374-3ff6-48b2-8421-7c1637cde0a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
-      <webElementGuid>bdacf99f-1e38-40ac-b8c2-c127aca20ab3</webElementGuid>
+      <webElementGuid>2f363317-368e-4aba-8590-075f80cda3bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>5d0fc5b3-df92-4496-98b6-c07792180380</webElementGuid>
+      <webElementGuid>5420d3c5-fe12-4701-9f13-b4aefb4aad08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

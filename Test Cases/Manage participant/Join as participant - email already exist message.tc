@@ -3,6 +3,20 @@
    <description></description>
    <name>Join as participant - email already exist message</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>aarti oza</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>82612376-c75e-48a3-a197-328bc5282f3a</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>00ebda7c-b257-4543-a804-93e077b46883</testCaseGuid>

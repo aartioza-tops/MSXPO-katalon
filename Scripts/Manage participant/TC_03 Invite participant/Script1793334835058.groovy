@@ -67,4 +67,3 @@ WebUI.click(findTestObject('Page_MSxpo - Admin Panel/button_Continue'))
 WebUI.click(findTestObject('Page_MSxpo - Admin Panel/div_BackContinue'))
 
 WebUI.click(findTestObject('Page_MSxpo - Admin Panel/button_Continue'))
-

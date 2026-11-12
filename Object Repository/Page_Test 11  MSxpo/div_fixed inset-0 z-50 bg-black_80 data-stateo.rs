@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_fixed inset-0 z-50 bg-black_80 data-stateo</name>
+   <tag></tag>
+   <elementGuidId>3a16c571-1075-4f05-ab63-c996d91f9a6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and (contains(concat(' ', normalize-space(@class), ' '), ' data-[state=closed]:animate-out ')) and (position() = 19)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.data-\[state\=closed\]\:animate-out:nth-child(19)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8fbc103e-6a46-4ea0-b99a-e1df15405ec7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-state</name>
+      <type>Main</type>
+      <value>open</value>
+      <webElementGuid>2da49df5-7eb8-439c-8b5d-f93b64bd5e09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0</value>
+      <webElementGuid>c98dadef-8a59-4d80-be1c-001f1222c7d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>bdb213de-cf2e-45b6-b5da-0c855515d261</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>8c97412d-1319-4157-ae63-446d7fb15cae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-486e5ca0043919ec4e9b913ee248708c</value>
+      <webElementGuid>fe5d6585-3b91-4047-9f3c-dfdb375040ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and (contains(concat(' ', normalize-space(@class), ' '), ' data-[state=closed]:animate-out ')) and (position() = 19)]</value>
+      <webElementGuid>8d1aaf06-1657-4b97-9754-19481900552d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and (contains(concat(' ', normalize-space(@class), ' '), ' data-[state=closed]:animate-out ')) and (position() = 19)]</value>
+      <webElementGuid>f2b3a2fa-262e-4455-a174-28544ca67c47</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

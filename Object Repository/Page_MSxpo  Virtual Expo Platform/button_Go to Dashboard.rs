@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Go to Dashboard</name>
+   <tag></tag>
+   <elementGuidId>c520adee-1104-4a01-81bf-e40528a7d4c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0ffcbd0a-3ad0-46fb-8368-c34d8bdfec87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full flex items-center justify-center gap-2 font-semibold text-sm px-6 py-3 rounded-lg transition-colors bg-primary text-primary-foreground hover:bg-primary/90</value>
+      <webElementGuid>f42745a1-fbc6-4cab-83b6-2240e94389ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Go to Dashboard</value>
+      <webElementGuid>c78ca9d6-bbed-4c91-84a2-d2f5f5956d33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b1418d1705dbee547d13ab1f6371522e</value>
+      <webElementGuid>caf1d974-1de1-4cff-a278-abf2598dff3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>99a7d1c6-81c8-46a8-a607-1018dbecaa99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>343d9ecc-79aa-4e79-8671-f618ec5569b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Go to Dashboard' or . = 'Go to Dashboard')]</value>
+      <webElementGuid>18437c96-4168-48bd-b655-d3bd3901f2a7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Hi Id like to learn more about your p</name>
+   <tag></tag>
+   <elementGuidId>78b674dd-e4b3-4cbf-ac7b-4a214f56f413</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>b7984e87-79b7-4eb1-bea2-78ff16df50d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Hi! I'd like to learn more about your products…</value>
+      <webElementGuid>2896a4a8-f436-4e06-b67f-709ccd6f5f2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>720b2899-a83e-4211-8564-765558ddcad6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full text-sm text-gray-900 bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 outline-none focus:border-blue-400 focus:bg-white transition-colors resize-none</value>
+      <webElementGuid>d2ad3ce8-b7c3-4f61-96f1-5cbbdb8b124f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-5a938f125518f76798d64b825f293547</value>
+      <webElementGuid>ea89fd20-563f-4df2-8741-5580aa40b70e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>620f9c42-aa33-4628-bfd6-2dd945d037cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>196205e0-e90a-4997-8105-d33f220c9ca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = concat(&quot;Hi! I&quot; , &quot;'&quot; , &quot;d like to learn more about your products…&quot;)]</value>
+      <webElementGuid>a90fdcdd-ca9d-4ca8-af3c-f5606e442745</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

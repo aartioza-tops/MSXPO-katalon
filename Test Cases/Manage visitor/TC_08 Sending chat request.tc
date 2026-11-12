@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_08 Sending chat request</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Aarti Oza</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Aarti Oza</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>cbb2f905-2593-406b-ac1e-cc1da7033a1f</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>cbb2f905-2593-406b-ac1e-cc1da7033a1f</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b96c7909-3d72-480c-b28a-2c9b30ef9e28</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c45993bd-fe55-48cc-b068-ba117295f374</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e36eb19-7765-4abc-b8d7-2dea4a521790</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c45993bd-fe55-48cc-b068-ba117295f374</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e36eb19-7765-4abc-b8d7-2dea4a521790</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

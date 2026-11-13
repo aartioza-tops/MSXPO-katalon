@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Events</name>
+   <tag></tag>
+   <elementGuidId>160496ab-8ec7-4f5a-925d-d33366beaee7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (@href = '/events')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.text-sm.transition-colors[href=&quot;\/events&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Events&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ffb9b07c-d3b4-4c82-9aab-d6541b93f734</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative px-3 py-2 text-sm font-medium tracking-[0.01em] transition-colors duration-200 text-white/75 hover:text-white</value>
+      <webElementGuid>4cf57eba-459e-416d-afc6-9c49119d69c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/events</value>
+      <webElementGuid>f74bd812-21e5-4f8c-8bd2-36f6002c76f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Events</value>
+      <webElementGuid>cab2e7f1-99d4-4f87-84e0-4da760d390c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-4f1ed1ba48bd003feffe204119dd328f</value>
+      <webElementGuid>7d7aca7d-76ef-4f01-8d19-bbb10aaaf2e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (@href = '/events')]</value>
+      <webElementGuid>03a158c3-847f-4c4b-8c84-6dfb2ecb8c80</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (@href = '/events')]</value>
+      <webElementGuid>e1ab35bd-7ad0-498a-a7f5-296c8a3ffdb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/events' and (text() = 'Events' or . = 'Events')]</value>
+      <webElementGuid>750a648d-ea73-4d62-883d-cc92457fd059</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

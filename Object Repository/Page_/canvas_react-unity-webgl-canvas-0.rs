@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//canvas</value>
+         <value>/html/body/div[2]/div/canvas</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>canvas</value>
-      <webElementGuid>73e2aec4-bd2a-4da0-aff1-6eabe89a0d3c</webElementGuid>
+      <webElementGuid>1f6570f0-d0cd-475f-be1e-8067b1305aea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-unity-webgl-canvas-0</value>
-      <webElementGuid>e96d3aa8-a2f5-40d5-9ed2-e214a4434434</webElementGuid>
+      <webElementGuid>38ef68ef-b8ba-4fc6-9619-26ddada224a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full h-full block</value>
-      <webElementGuid>b574306e-e8a2-43b3-91f2-6b8d4b1bd22e</webElementGuid>
+      <webElementGuid>77e4de6d-d6ff-49a0-8c8b-1f176a7a80bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>e1c84320-a511-44df-b818-7771b92820e8</webElementGuid>
+      <webElementGuid>b97213e1-adc3-40f4-b20a-c5c19f383a19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-3f68b1796b01911bf7b8b13cfca5fbcb</value>
-      <webElementGuid>7437ae34-12ac-4502-8fbb-ef2c261d734f</webElementGuid>
+      <webElementGuid>577567aa-0d59-4ef8-9558-797d6eef39e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,16 +63,8 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//canvas</value>
-      <webElementGuid>f17ed4a3-afb9-4cef-8417-6b9f3efec566</webElementGuid>
+      <webElementGuid>07dbb9be-7c66-4622-bce0-12d4a3f93606</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//canvas</value>
-      <webElementGuid>049ed44c-1e5a-47a0-8c9c-c9ee76bcafb6</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>

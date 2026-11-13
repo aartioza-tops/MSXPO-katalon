@@ -34,13 +34,60 @@ WebUI.click(findTestObject('Page_MSxpo  Virtual Expo Platform/span_Sign In'))
 
 WebUI.click(findTestObject('Page_MSxpo  Virtual Expo Platform/button_Go to Dashboard'))
 
-WebUI.click(findTestObject('Page_MSxpo  Virtual Expo Platform/svg_lucide lucide-chevron-down w-3 h-3 transitio'))
+// ---------------------------------------------------------------------------
+// Event dropdown selection - DATA DRIVEN from the data-file column event_name.
+// Verified live on demo.msxpo.sa:
+//  - trigger = header button (with chevron) showing the current event name
+//  - open panel = div.absolute.top-full (search box + scrollable list)
+//  - each option = button.w-full... containing
+//      <p class="text-xs font-semibold truncate">Event Name</p>
+//    -> option matched by exact event-name text inside the open panel
+//  - after clicking, the panel closes and the trigger shows the chosen name
+// ---------------------------------------------------------------------------
+String chosenEvent = event_name
 
-WebUI.click(findTestObject('Page_MSxpo  Virtual Expo Platform/p_Test 11'))
+// 1. open the event dropdown (chevron trigger in the header)
+TestObject dropTrigger = findTestObject('Manage visitor/event drop down')
+assert WebUI.waitForElementPresent(dropTrigger, 15) : "Event dropdown trigger not found in the header"
+WebUI.click(dropTrigger)
 
+// 2. click the option matching the data-file value
+TestObject eventOption = findTestObject('Manage visitor/event option', [('event_name') : chosenEvent])
+assert WebUI.waitForElementPresent(eventOption, 10) : "Event option '${chosenEvent}' not found in the dropdown list"
+WebUI.click(eventOption)
+
+// 3. panel closes and the trigger then shows the chosen event
+assert WebUI.waitForElementNotPresent(eventOption, 5) : "Dropdown stayed open after selecting '${chosenEvent}'"
+TestObject chosenTrigger = findTestObject('Manage visitor/event trigger shows chosen', [('event_name') : chosenEvent])
+assert WebUI.waitForElementPresent(chosenTrigger, 5) : "Header does not show '${chosenEvent}' after selection"
+WebUI.comment("Selected event from data file: ${chosenEvent}")
+
+/* ******************************** */
+//
 WebUI.click(findTestObject('Page_MSxpo  Virtual Expo Platform/button_Enter Expo Hall'))
 
-WebUI.click(findTestObject('Page_/canvas_react-unity-webgl-canvas-0'))
+// ---------------------------------------------------------------------------
+// After 'Enter Expo Hall' the Unity scene load time is NOT fixed (observed
+// 20-60s on demo.msxpo.sa). While loading, a spinner overlay
+// (div.animate-spin) covers the canvas, so clicking the canvas too early
+// fails with ElementClickInterceptedException. Wait for the load to finish:
+//   1. canvas must exist,
+//   2. loading spinner must be gone (wait until it appears if still coming).
+// ---------------------------------------------------------------------------
+TestObject unityCanvas = findTestObject('Page_/canvas_react-unity-webgl-canvas-0')
+TestObject unitySpinner = findTestObject('Manage visitor/unity loading spinner')
+
+assert WebUI.waitForElementPresent(unityCanvas, 60) : "Expo hall canvas did not appear within 60s"
+
+// spinner shows up immediately after entering the hall; wait for it to appear
+// (if it never does, the scene is already loaded - nothing to wait for)
+if (WebUI.waitForElementPresent(unitySpinner, 10)) {
+	WebUI.comment("Unity scene is loading - waiting for the spinner to clear")
+	assert WebUI.waitForElementNotPresent(unitySpinner, 120) : "Unity scene still loading after 120s"
+}
+WebUI.delay(2) // give the scene a moment to accept input after load
+
+WebUI.click(unityCanvas)
 
 WebUI.click(findTestObject('Page_Test 11  MSxpo/svg_lucide lucide-menu w-5 h-5'))
 

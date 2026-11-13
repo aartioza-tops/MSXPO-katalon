@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_08 Sending chat request test</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>aarti oza</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>aarti oza</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>82612376-c75e-48a3-a197-328bc5282f3a</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>82612376-c75e-48a3-a197-328bc5282f3a</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bf5977f4-f848-450a-9ae9-b1e633dfe749</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>646b484c-9d2a-4d5c-8058-f1208861a2dd</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Manage Visitor/TC_08 Sending chat request</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c36c8c70-c5c7-4856-9b18-28fe5e25e292</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7dba3d6e-c9dc-4ea7-b556-d69c61d97f03</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c36c8c70-c5c7-4856-9b18-28fe5e25e292</id>
+      <masked>false</masked>
+      <name>email_address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7dba3d6e-c9dc-4ea7-b556-d69c61d97f03</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

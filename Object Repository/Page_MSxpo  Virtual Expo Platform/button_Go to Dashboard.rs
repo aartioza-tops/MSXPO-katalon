@@ -13,8 +13,18 @@
          <key>CSS</key>
          <value>button</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Go to Dashboard' or . = 'Go to Dashboard')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Go to Dashboard&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0ffcbd0a-3ad0-46fb-8368-c34d8bdfec87</webElementGuid>
+      <webElementGuid>7a151f37-2f22-4311-99c7-8a8e57e5815c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full flex items-center justify-center gap-2 font-semibold text-sm px-6 py-3 rounded-lg transition-colors bg-primary text-primary-foreground hover:bg-primary/90</value>
-      <webElementGuid>f42745a1-fbc6-4cab-83b6-2240e94389ed</webElementGuid>
+      <webElementGuid>a5fbe290-4992-4f6f-97f9-0507e595dfa2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Go to Dashboard</value>
-      <webElementGuid>c78ca9d6-bbed-4c91-84a2-d2f5f5956d33</webElementGuid>
+      <webElementGuid>d371ed85-f6b7-4a06-8871-b9073430f858</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +57,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b1418d1705dbee547d13ab1f6371522e</value>
-      <webElementGuid>caf1d974-1de1-4cff-a278-abf2598dff3c</webElementGuid>
+      <webElementGuid>707442a1-c939-4348-b167-3a83f6d1d667</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>99a7d1c6-81c8-46a8-a607-1018dbecaa99</webElementGuid>
+      <webElementGuid>edadf074-3440-47c9-bb8d-b687ec05dcd9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>343d9ecc-79aa-4e79-8671-f618ec5569b9</webElementGuid>
+      <webElementGuid>4b04670d-0384-4196-8552-679ef961f13a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Go to Dashboard' or . = 'Go to Dashboard')]</value>
-      <webElementGuid>18437c96-4168-48bd-b655-d3bd3901f2a7</webElementGuid>
+      <webElementGuid>2589dfed-f7a5-4baa-83a6-2505bfdc74ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

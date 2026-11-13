@@ -13,8 +13,18 @@
          <key>CSS</key>
          <value>[href=&quot;\/register\?mode\=login&quot;]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/register?mode=login' and (text() = 'Sign In' or . = 'Sign In')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Sign In&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c96b736a-3d72-4c31-af40-f16dd59fcf6e</webElementGuid>
+      <webElementGuid>fb04ef33-b15f-498f-b4aa-a819549c47b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-sm font-medium tracking-[0.01em] px-3 py-2 rounded-md text-white/80 hover:text-white transition-colors</value>
-      <webElementGuid>47d3dfd2-9a57-4a2b-ac5e-c6644f71dcab</webElementGuid>
+      <webElementGuid>90f512d4-7c0a-4203-b04b-ab9db2af0ce6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +49,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/register?mode=login</value>
-      <webElementGuid>2d036975-0d81-49f0-93ee-7e506897e313</webElementGuid>
+      <webElementGuid>3724e60f-1d50-4aa6-aa26-4327183a4748</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In</value>
-      <webElementGuid>cd8d4acd-8dee-4cac-93d8-79e7f47d932f</webElementGuid>
+      <webElementGuid>29fde1a2-2a02-4fa5-a135-894c473c7235</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-9ec2b8a5e1ee19737b5a399fbc6b3dee</value>
-      <webElementGuid>0a46c383-eeb0-47e6-9d5d-cf1e353f5230</webElementGuid>
+      <webElementGuid>d655fd14-fbb5-47c8-9e76-1d9965ecc7db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@href = '/register?mode=login']</value>
-      <webElementGuid>5e305208-7569-45cf-a10a-eea8cf27168f</webElementGuid>
+      <webElementGuid>327a7239-9dc9-4626-be1b-9306940d4163</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@href = '/register?mode=login']</value>
-      <webElementGuid>fbf51440-fbe8-4f50-8b53-901eb4348e7d</webElementGuid>
+      <webElementGuid>bee3f0b5-0dda-4dd5-adb4-b0b87cff330c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/register?mode=login' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>007f7d26-4b67-4792-a8f4-483dd1658844</webElementGuid>
+      <webElementGuid>998c96aa-e609-4f8b-8a4d-e9b3ceffc7d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

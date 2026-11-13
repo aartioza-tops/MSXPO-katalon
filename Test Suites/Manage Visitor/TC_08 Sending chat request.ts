@@ -40,5 +40,11 @@
          <value>password</value>
          <variableId>7e36eb19-7765-4abc-b8d7-2dea4a521790</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>3c8d82a6-b4b2-4293-aaad-75fe4037886f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>event_name</value>
+         <variableId>9f4a7c21-6d83-4e15-b0a9-5c2e8d17f6ab</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

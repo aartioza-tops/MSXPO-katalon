@@ -77,7 +77,7 @@ WebUI.setText(findTestObject('Page_MSxpo - Admin Panel/input_e.g. Tech Expo 2026
 // whose DOM id (radix-_r_...) changes on every page load, so the recorded 'span_radix-_r_4q' object
 // can never match. Fix: click the labelled trigger, then the [role=option] whose text equals the
 // test-data value of 'event_type'.
-TestObject eventTypeTrigger = findTestObject('Manage event/event_type_trigger')
+TestObject eventTypeTrigger = findTestObject('Manage visitor/event_type')
 if (!WebUI.verifyElementPresent(eventTypeTrigger, 5, FailureHandling.OPTIONAL)) {
 	// pristine page state fallback: recorded trigger still showing the "Select Event Type" placeholder
 	eventTypeTrigger = findTestObject('Page_MSxpo - Admin Panel/button_Select Event Type')

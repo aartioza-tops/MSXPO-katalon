@@ -12,7 +12,7 @@
          </entry>
          <entry>
             <key>lastModifiedByName</key>
-            <value>Aarti Oza</value>
+            <value>aarti oza</value>
          </entry>
          <entry>
             <key>createdByUuid</key>
@@ -20,7 +20,7 @@
          </entry>
          <entry>
             <key>lastModifiedByUuid</key>
-            <value>cbb2f905-2593-406b-ac1e-cc1da7033a1f</value>
+            <value>82612376-c75e-48a3-a197-328bc5282f3a</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
@@ -40,6 +40,12 @@
       <value></value>
       <variableId>7e36eb19-7765-4abc-b8d7-2dea4a521790</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9f4a7c21-6d83-4e15-b0a9-5c2e8d17f6ab</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -53,5 +59,12 @@
       <id>7e36eb19-7765-4abc-b8d7-2dea4a521790</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9f4a7c21-6d83-4e15-b0a9-5c2e8d17f6ab</id>
+      <masked>false</masked>
+      <name>event_name</name>
    </variable>
 </TestCaseEntity>

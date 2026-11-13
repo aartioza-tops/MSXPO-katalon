@@ -13,8 +13,18 @@
          <key>CSS</key>
          <value>.text-primary-foreground span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Sign In' or . = 'Sign In')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>form >> internal:role=button[name=&quot;Sign In&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>46c0ca1f-c80a-4429-a0a8-ed82ebae9457</webElementGuid>
+      <webElementGuid>e864e535-2484-4810-bd06-18a0ae4cdd05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In</value>
-      <webElementGuid>cf20d40d-59e8-4369-b040-7f9832678080</webElementGuid>
+      <webElementGuid>330bd364-8c02-45fd-a098-7023af5bb21f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +49,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-d19a64ebc24e76ce707c7c252af9d05b</value>
-      <webElementGuid>5187577d-6925-4f09-92ec-9d17e8b6fa13</webElementGuid>
+      <webElementGuid>84a68db2-952b-4974-b25d-1ff27528d79e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]//span</value>
-      <webElementGuid>fb214e9e-4f3f-4f3b-9703-743652e41a93</webElementGuid>
+      <webElementGuid>965d2cf6-d8f7-40b7-a32b-ec2509612756</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +65,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]//span</value>
-      <webElementGuid>e7e5b0f8-0a88-44fa-a95d-e538fec2c184</webElementGuid>
+      <webElementGuid>2a6c2afd-0538-4bc5-8569-1f1c3ec971dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +73,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>15d68bdb-a701-48dd-bce4-1b32d2fed5d6</webElementGuid>
+      <webElementGuid>1269365a-c621-468d-8508-45b0a429e65b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

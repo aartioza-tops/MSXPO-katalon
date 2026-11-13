@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_09 set meeting availiblity</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>aarti oza</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>aarti oza</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>82612376-c75e-48a3-a197-328bc5282f3a</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>82612376-c75e-48a3-a197-328bc5282f3a</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0d0856b1-d742-43f7-b202-09a6074612b9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e944f09b-02ff-414e-8a5b-7368580a1a11</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e944f09b-02ff-414e-8a5b-7368580a1a11</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

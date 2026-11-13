@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC_10 schedule meeting</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>cf9316de-0683-48ee-9b51-9ce7536266a9</testSuiteGuid>
+   <testCaseLink>
+      <guid>b885f844-fb48-4336-9489-6cc77d86385b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Manage visitor/TC_10 schedule meeting</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dc8b2e99-1152-42ce-9730-b369541c99ea</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Manage Visitor/TC_10 schedule meeting</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>dc8b2e99-1152-42ce-9730-b369541c99ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email_address</value>
+         <variableId>d72b73b0-93be-4300-bfc4-389a08a5e11c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc8b2e99-1152-42ce-9730-b369541c99ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c5ddce60-36e5-48c7-9db1-04d2aec489a1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc8b2e99-1152-42ce-9730-b369541c99ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>event</value>
+         <variableId>9e536b58-bcb8-43ba-addb-8ddcd2deb8b7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc8b2e99-1152-42ce-9730-b369541c99ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>booth</value>
+         <variableId>2e624f24-c3b1-49e0-ac15-2883a738347a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc8b2e99-1152-42ce-9730-b369541c99ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
+         <variableId>17cea722-8546-4028-8590-15d561b2424b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc8b2e99-1152-42ce-9730-b369541c99ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>time</value>
+         <variableId>69ff6416-ba11-48dd-b25f-b0eb98217a38</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

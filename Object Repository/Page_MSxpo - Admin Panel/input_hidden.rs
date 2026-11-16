@@ -6,11 +6,15 @@
    <elementGuidId>492c248b-b234-4772-b0e5-03b85b39d5ad</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'file']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>[type=&quot;file&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value>//*[@type = 'file']</value>
       </entry>
    </selectorCollection>
@@ -29,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>63c9e897-dcc9-4419-8cdf-69547a2470c1</webElementGuid>
+      <webElementGuid>ba79d47d-1cd6-4960-9705-605958abe879</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>accept</name>
       <type>Main</type>
-      <value>image/*</value>
-      <webElementGuid>b32c46e6-4dc9-47e8-b3c3-2e7300d336cf</webElementGuid>
+      <value>*</value>
+      <webElementGuid>5975cb01-5615-4b31-a6f8-77270aa76323</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>hidden</value>
-      <webElementGuid>341f6cf1-d677-4207-b452-3fbc72facfc4</webElementGuid>
+      <webElementGuid>fa03518f-f0eb-407a-87d3-f08691b92de7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>file</value>
-      <webElementGuid>499ca16f-c5e2-448b-bc2b-df21bf7fc40a</webElementGuid>
+      <webElementGuid>1d9f7792-b801-4a57-ace6-ad0d447d04b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b56dac6ef22777df1f1f12b8824fd9fc</value>
-      <webElementGuid>30dc1d5b-431d-4687-9474-efefd1afac67</webElementGuid>
+      <webElementGuid>e89e0248-a44c-4ed1-a9e9-28669d4b16d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@type = 'file']</value>
-      <webElementGuid>bcd870ad-d5dd-45c2-960d-2b4fbb675a1d</webElementGuid>
+      <webElementGuid>866e83cc-21d6-4aa5-b2c7-b335e87541cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@type = 'file']</value>
-      <webElementGuid>b2cd50fa-8d99-4b5e-92ad-80a3192afcf7</webElementGuid>
+      <webElementGuid>7602c1f9-6646-4ea8-9c86-345f0a9e2ac8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'file']</value>
-      <webElementGuid>e8ceb651-6923-472f-a8e0-3da39d3ec674</webElementGuid>
+      <webElementGuid>96708945-a7b7-4b22-8665-ac897cbd8b63</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

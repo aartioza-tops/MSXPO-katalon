@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC_12 upload media</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>143c5688-465e-4412-9c54-173359c139c0</testSuiteGuid>
+   <testCaseLink>
+      <guid>88f82f77-605f-4013-ae43-ae7782877162</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Manage participant/TC_12 upload media</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f052e68c-9c4c-45cd-b49e-d77aa9945fd1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Manage participant/TC_12 upload media</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f052e68c-9c4c-45cd-b49e-d77aa9945fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email_address</value>
+         <variableId>ac5ca049-13b9-4fe2-bf87-cfcf306136d2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f052e68c-9c4c-45cd-b49e-d77aa9945fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>0086f87c-906c-4b53-9a77-1366ba4a64ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f052e68c-9c4c-45cd-b49e-d77aa9945fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>event_name</value>
+         <variableId>48948f09-4976-4b89-81b8-94ce1464f8a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f052e68c-9c4c-45cd-b49e-d77aa9945fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>participant_name</value>
+         <variableId>8ba1f7b3-a7c0-43b9-b281-1ffe20421843</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f052e68c-9c4c-45cd-b49e-d77aa9945fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>booth_name</value>
+         <variableId>47f54eca-4f98-4d89-b301-4eff78ff503a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f052e68c-9c4c-45cd-b49e-d77aa9945fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>path</value>
+         <variableId>3abc6a62-8dc5-40e7-8547-8d47ec7bc41d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f052e68c-9c4c-45cd-b49e-d77aa9945fd1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>purpose</value>
+         <variableId>b1bcb98d-b170-4b5d-a0e3-1a3e42d33786</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -6,19 +6,23 @@
    <elementGuidId>e730478b-f4e3-43b1-8e2e-89d44848e969</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>[data-state=&quot;false&quot;]:nth-child(1) [title=&quot;View\ Details&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@title = 'View Details']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[(@data-state = 'false') and (position() = 1)]//*[@title = 'View Details']</value>
+         <key>CSS</key>
+         <value>[title=&quot;View\ Details&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @title = 'View Details' and (text() = 'test participant' or . = 'test participant')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=row[name=&quot;xyz Tech Expo 2026 - Oct 27, 2026&quot;i] >> internal:attr=[title=&quot;View Details&quot;i]</value>
+         <value>internal:role=button[name=&quot;test participant&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>972bf380-bc02-42d3-8e29-5c8e29926a55</webElementGuid>
+      <webElementGuid>e7c7a01c-968f-408e-94dc-e573a0203b9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>05b4d1c7-9f8a-4d36-abf0-7496337ea7ad</webElementGuid>
+      <webElementGuid>d631b655-1a96-422c-843a-2eb9dbee29ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cursor-pointer truncate max-w-[200px] text-left text-sm font-medium text-slate-900 hover:text-blue-600 hover:underline</value>
-      <webElementGuid>c3ef9eca-8c6a-445e-a8ff-a6ff4b5cd668</webElementGuid>
+      <webElementGuid>deca7579-8e28-4147-acca-7c81a5ec80c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,32 +57,48 @@
       <name>title</name>
       <type>Main</type>
       <value>View Details</value>
-      <webElementGuid>5e278a32-51f6-4f08-90ef-dc045c443ed0</webElementGuid>
+      <webElementGuid>fbd54f4d-2326-4579-b33c-42aac3d81bf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>xyz</value>
-      <webElementGuid>6342ac17-6052-450f-83d6-ac8dd3096d39</webElementGuid>
+      <value>test participant</value>
+      <webElementGuid>abdd8f6d-036a-49e4-935f-51a4eaa01a9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-ec3a1382fc80c84ef813898a3f02786e</value>
-      <webElementGuid>af756d3b-a55c-4149-a50b-218680224404</webElementGuid>
+      <value>md5.v1-ea49ec8bc3c8b63c014268502cded3b1</value>
+      <webElementGuid>92ad75e2-2d20-4241-b996-3a4ef43b157c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[(@data-state = 'false') and (position() = 1)]//*[@title = 'View Details']</value>
-      <webElementGuid>fdbf533f-0ff0-41d3-8674-5b6b1b0523f3</webElementGuid>
+      <value>//*[@title = 'View Details']</value>
+      <webElementGuid>14caf260-6737-4786-b2c8-51a5a02b5d48</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@title = 'View Details']</value>
+      <webElementGuid>0473fd59-56fe-4c22-8918-22c97046a0de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @title = 'View Details' and (text() = 'test participant' or . = 'test participant')]</value>
+      <webElementGuid>b1cce9e1-543e-4a5c-9fca-9b5cf143261d</webElementGuid>
+   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>

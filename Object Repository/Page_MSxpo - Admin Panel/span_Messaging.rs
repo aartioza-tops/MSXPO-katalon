@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Messaging</name>
+   <tag></tag>
+   <elementGuidId>98479a61-2da6-42b7-974d-aca3da5ec238</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/chat&quot;] span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@href = '/chat']//span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Messaging&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6bd88ef5-5113-450e-a6e4-c7357ed1d822</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-1</value>
+      <webElementGuid>649065bb-ad8c-4ded-99a3-e060a5903801</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Messaging</value>
+      <webElementGuid>a7a3d646-d915-4c64-8f3a-c56ddd5f4953</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-22349987f2d38076f59f8c65c72c1da7</value>
+      <webElementGuid>a0c9e662-c9e7-400a-9f25-10d98adf7912</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/chat']//span</value>
+      <webElementGuid>7f83ff96-5eeb-4c54-86ca-c8d4bee76156</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/chat']//span</value>
+      <webElementGuid>bdfc238d-dee5-4380-abef-f6150be804c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Messaging' or . = 'Messaging')]</value>
+      <webElementGuid>92df1010-d7b3-4461-b474-190f4ef4f791</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

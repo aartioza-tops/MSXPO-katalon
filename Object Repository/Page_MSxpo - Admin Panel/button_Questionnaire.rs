@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Questionnaire</name>
+   <tag></tag>
+   <elementGuidId>ba0dc8de-8b40-4c9b-9fe6-2bff154eff1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[title=&quot;Questionnaire&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title = 'Questionnaire']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Questionnaire&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>88143273-b343-44e1-9d8c-a90a9d9db76e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Questionnaire</value>
+      <webElementGuid>f9c57347-747a-483b-9602-b11866b030cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-8 w-8 items-center justify-center rounded-lg border border-[#0091EA]/30 bg-[#0091EA]/10 text-[#0091EA] transition-colors hover:bg-[#0091EA] hover:text-white</value>
+      <webElementGuid>03466be2-d396-4a8c-a63b-3d25c5f90bd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3636c3a6af35fc7e83f97795e90ae401</value>
+      <webElementGuid>83d1039c-2c83-4ad5-80c3-e9f817a0aa51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@title = 'Questionnaire']</value>
+      <webElementGuid>e9cedd29-0153-43a6-b595-c2ff10ae2a53</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@title = 'Questionnaire']</value>
+      <webElementGuid>b2b585f4-dd95-4d10-a7d7-01a20b7637f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@title = 'Questionnaire']</value>
+      <webElementGuid>7e64d4d2-1b3f-4ef2-975f-02038f1096a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

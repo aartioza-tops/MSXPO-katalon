@@ -6,12 +6,16 @@
    <elementGuidId>f8bfe08e-a06b-4752-8731-2998142fa521</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>.peer.cursor-pointer</value>
+         <value>.peer.rounded-full</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' peer ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' peer ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-full ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>31302655-813a-4179-b622-34152661150d</webElementGuid>
+      <webElementGuid>e9d81e63-663c-4121-9c0a-2ebbf1e623ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7dcb601f-1226-49de-bcad-bf5bccddf493</webElementGuid>
+      <webElementGuid>ac156e4c-b1eb-40a7-b89d-8f8caa0d9d9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>role</name>
       <type>Main</type>
       <value>switch</value>
-      <webElementGuid>e0587651-de55-4398-9cac-d826441b137f</webElementGuid>
+      <webElementGuid>6775c567-c3ac-411d-9232-d6c11e3cbcde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>aria-checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5db14ba5-6259-4eb6-bf72-24412848c9f7</webElementGuid>
+      <webElementGuid>b75533cf-c7f8-4113-bfd6-2dec3f0497b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>data-state</name>
       <type>Main</type>
       <value>unchecked</value>
-      <webElementGuid>5ce489e8-d0d1-4dd9-b8c6-97f7b4990258</webElementGuid>
+      <webElementGuid>f3ac3586-b117-4de5-bd02-e0a70a92df37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>value</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>dd2f650d-d63a-4f04-bf57-375665cf0998</webElementGuid>
+      <webElementGuid>8626cbfd-9e26-4d0c-a4cb-97a5362f707f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>dir</name>
       <type>Main</type>
       <value>ltr</value>
-      <webElementGuid>284d4874-b6c9-4dcc-af7e-759583b94954</webElementGuid>
+      <webElementGuid>0100c077-1871-45fe-b117-4b7606ef5765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,31 +89,31 @@
       <name>class</name>
       <type>Main</type>
       <value>peer inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=unchecked]:bg-input</value>
-      <webElementGuid>fdfd8d97-68e7-4280-96ec-a71d68699e4e</webElementGuid>
+      <webElementGuid>6ff93cad-58fa-48db-9f92-90c38b4ddfdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-de1cb3049723764aea7979ed788b0a57</value>
-      <webElementGuid>8c67556c-0b49-4c27-872f-f0d11eadd37b</webElementGuid>
+      <value>md5.v1-4c20396fd8f7a33f4b7c4d66d1590568</value>
+      <webElementGuid>420a38ac-dfaa-4aae-b52f-a0fb0b32aa7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' peer ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ')]</value>
-      <webElementGuid>78a64711-34cb-4da6-a299-b7b47b165a1a</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' peer ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-full ')]</value>
+      <webElementGuid>4997f9d3-add3-43b9-9909-9d14c7d2cf36</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' peer ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ')]</value>
-      <webElementGuid>d05fc2bf-ccaf-42ba-a339-584688ae7f84</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' peer ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-full ')]</value>
+      <webElementGuid>b0777106-191e-4c28-98e8-19da1d8ad51c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>3759f799-11c6-4ed5-be0b-120c7ff31d66</webElementGuid>
+      <webElementGuid>1d0e676b-cf77-4776-a653-8af1b7c229bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' peer ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ')]</value>
+      <webElementGuid>d05fc2bf-ccaf-42ba-a339-584688ae7f84</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
